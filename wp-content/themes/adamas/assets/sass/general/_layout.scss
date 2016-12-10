@@ -1,0 +1,116 @@
+/*-------------------------------------------------------------------------*/
+/*  Layout
+/*-------------------------------------------------------------------------*/
+
+#wrapper {
+    z-index: 1;
+    position: relative;
+    transition: transform .5s;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.site-content {
+    z-index: 1;
+    position: relative;
+    flex: 1 0 auto;
+    height: auto;
+}
+
+.has-composer.left-sidebar .site-content,
+.has-composer.right-sidebar .site-content {
+    padding: 60px 0;
+}
+
+@media only screen and (min-width : 1200px) {
+    .wpus-wide .container {
+        width: auto;
+        max-width: 100%;
+        margin: 0 100px;
+    }
+}
+
+.site-content {
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    #site-header[data-transparent] + & {
+        padding-top: 0;
+    }
+
+    .has-composer & {
+        padding: 0;
+    }
+
+    .single-post & {
+        padding-bottom: 0;
+    }
+
+}
+
+.right-sidebar #content > .container .container {
+    width: auto;
+}
+
+@media only screen and (min-width : 992px) {
+    .right-sidebar .site-main {
+        padding-right: 30px;
+    }
+
+    .left-sidebar .site-main {
+        padding-left: 30px;
+    }
+}
+
+/** Sidebar */
+@media only screen and (max-width : 992px) {
+    .site-sidebar {
+        margin-top: 60px;
+    }
+}
+
+/** Bootstrap 5 columns */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.centered {
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

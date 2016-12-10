@@ -1,0 +1,22 @@
+/*-------------------------------------------------------------------------*/
+/*  Site Overlay
+/*-------------------------------------------------------------------------*/
+
+.site-overlay {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba( #000, .2 );
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s, visibility .5s;
+    cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQAQMAAAC032DuAAAABlBMVEUAAADu7u6BVFV4AAAAAXRSTlMAQObYZgAAAK5JREFUKM+1kkEOhSAMRD+ERZccoUfxaBz9k8zYF2WtCfoQOpR2fp89S5+2xyXse6Rw7DGF4eE/Q5je7+iGpl7NS7UtLWsZS4bmtZZOxLHWWVbX1IvdmAq1UBhDshZOY5eshVeVYk9u4V6Yo3BGYczCkYX9KmzrRDYQhhhHcDDpHEmSOhfimlyeklCos3wUlVLTANpCs2jhu7G0GxNgDQzztBHmwnIY8WFPTPvV8wdphQ/xtv0rQAAAAABJRU5ErkJggg==") 38 38, default;
+
+    .show-overlay & {
+        opacity: 1;
+        visibility: visible;
+    }
+}

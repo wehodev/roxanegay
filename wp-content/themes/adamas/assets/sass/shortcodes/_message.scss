@@ -1,0 +1,61 @@
+/** Shortcode: Message Box */
+.wpus-message {
+
+    position: relative;
+    margin-bottom: 20px;
+    padding: 18px 60px 18px 30px;
+    line-height: 22px;
+
+    &.notice {
+        background-color: #f9f9f9;
+        color: #888;
+    }
+
+    &.warning {
+        background-color: #fff7da;
+        color: #d88f10;
+    }
+
+    &.error {
+        background-color: #fcecec;
+        color: #de4440;
+    }
+
+    &.success {
+        background-color: #e7f7ef;
+        color: #239d62;
+    }
+
+    &.info {
+        background-color: #dff2fe;
+        color: #536F82;
+    }
+
+}
+
+.wpus-message-close {
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 17px 25px;
+    color: inherit;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    cursor: pointer;
+    opacity: .6;
+    transition: opacity .15s;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    &:before {
+        content: '\f00d';
+        font-family: 'fontawesome';
+    }
+
+    &:hover {
+        opacity: 1;
+    }
+    
+}

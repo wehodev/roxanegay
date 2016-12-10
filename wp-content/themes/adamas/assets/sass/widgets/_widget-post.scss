@@ -1,0 +1,22 @@
+/** Widgets: Post */
+.adamas-widget-entry {
+    position: relative;
+    display: block;
+    min-height: 53px;
+    padding-left: 70px;
+}
+
+.adamas-widget-thumb {
+
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 50px;
+    border-radius: 2px;
+    overflow: hidden;
+
+    img {
+    	transform: none !important;
+    }
+
+}

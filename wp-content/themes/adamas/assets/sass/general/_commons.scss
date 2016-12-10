@@ -1,0 +1,325 @@
+/*-------------------------------------------------------------------------*/
+/*  Commons
+/*-------------------------------------------------------------------------*/
+
+/** Commons: Element Position */
+%common_position_apsolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+/** Commons: Disable hover */
+.disable-hover {
+    pointer-events: none;
+}
+
+
+/** Commons: Visibility */
+@media ( min-width: 1200px ) {
+    .hidden-lg,
+    .dots-hidden-lg,
+    .arrows-hidden-lg {
+        display: none !important;
+    }
+}
+
+@media ( min-width: 992px ) and ( max-width: 1199px ) {
+    .hidden-md,
+    .dots-hidden-md,
+    .arrows-hidden-md {
+        display: none !important;
+    }
+}
+
+@media ( min-width: 768px ) and ( max-width: 991px ) {
+    .hidden-sm,
+    .dots-hidden-sm,
+    .arrows-hidden-sm {
+        display: none !important;
+    }
+}
+
+@media ( max-width: 767px ) {
+    .hidden-xs,
+    .dots-hidden-xs,
+    .arrows-hidden-xs {
+        display: none !important;
+    }
+}
+
+
+/* Commons: Text Align  */
+.text-center { text-align: center; }
+.text-right  { text-align: right; }
+.text-left   { text-align: left; }
+
+@media ( min-width: 992px ) and ( max-width: 1199px ) {
+    .text-center-sm { text-align: center; }
+    .text-right-sm  { text-align: right; }
+    .text-left-sm   { text-align: left; }
+}
+
+@media ( min-width: 768px ) and ( max-width: 991px ) {
+    .text-center-sm { text-align: center; }
+    .text-right-sm  { text-align: right; }
+    .text-left-sm   { text-align: left; }
+}
+
+@media ( max-width: 767px ) {
+    .text-center-xs { text-align: center; }
+    .text-right-xs  { text-align: right; }
+    .text-left-xs   { text-align: left; }
+}
+
+
+/** Commons: Rollover */
+.wpus-rollover {
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    vertical-align: top;
+    overflow: hidden;
+
+    .image-background {
+        @extend %common_position_apsolute;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 0.3s;
+    }
+
+    [data-class="image-hover"] {
+        @extend %common_position_apsolute;
+        opacity: 0;
+        transition: all 0.3s;
+    }
+
+    &:hover [data-class="image-hover"] {
+        opacity: 1;
+    }
+
+}
+
+
+/** Commons: Overlay */
+.wpus-overlay {
+    @extend %common_position_apsolute;
+    transition: opacity .3s;
+
+    &[data-type="background"] {
+        background-color: rgba( #000, .4 );
+    }
+
+    &[data-type="gradient"] {
+        background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.6));
+    }
+
+}
+
+
+/** Commons: Appearance */
+.wpus-hover-hide {
+    transition: opacity .3s;
+
+    .wpus-rollover:hover & {
+        opacity: 0;
+    }
+
+}
+
+.wpus-hover-show {
+    opacity: 0;
+    transition: opacity .3s;
+
+    .wpus-rollover:hover & {
+        opacity: 1;
+    }
+
+}
+
+
+/** Commons: Image Hovers  */
+[data-hover="grow"],
+[data-hover="shrink"] {
+    transition: opacity .3s, transform .3s;
+}
+
+[data-hover="shrink"],
+.wpus-rollover:hover [data-hover="grow"] { 
+    transform: scale(1.1);
+}
+
+[data-hover="grow"],
+.wpus-rollover:hover [data-hover="shrink"] { 
+    transform: scale(1);
+}
+
+
+/** Commons: Position */
+.wpus-position-lt,
+.wpus-position-lc,
+.wpus-position-lb,
+.wpus-position-ct,
+.wpus-position-cc,
+.wpus-position-cb,
+.wpus-position-rt,
+.wpus-position-rc,
+.wpus-position-rb {
+    position: absolute;
+    width: 100%;
+}
+
+.wpus-position-lt {
+    left: 0;
+    top: 0;
+}
+
+.wpus-position-lc {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.wpus-position-lb {
+    bottom: 0;
+    left: 0;
+}
+
+.wpus-position-ct {
+    top: 0;
+    text-align: center;
+}
+
+.wpus-position-cc {
+    top: 50%;
+    left: 0;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.wpus-position-cb {
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.wpus-position-rt {
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+
+.wpus-position-rc {
+    top: 50%;
+    right: 0;
+    text-align: right;
+    transform: translateY(-50%);
+}
+
+.wpus-position-rb {
+    right: 0;
+    bottom: 0;
+    text-align: right;
+}
+
+
+/** Commons: Image lazy load */
+.wpus-lazy-load {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+    a:hover & {
+        opacity: 1;
+    }
+    
+}
+
+/** Commons: Title ovelray */
+.title-overlay {
+    z-index: 3;
+    transition: opacity .4s, transform .4s;
+}
+
+.wpus-rollover .title-overlay.wpus-hover-show,
+.wpus-rollover:hover .title-overlay.wpus-hover-hide {
+    transform: translateY(20px);
+}
+
+.wpus-rollover .title-overlay.wpus-hover-hide,
+.wpus-rollover:hover .title-overlay.wpus-hover-show  {
+    transform: translateY(0);
+}
+
+.wpus-rollover .title-overlay.wpus-position-cc.wpus-hover-show,
+.wpus-rollover .title-overlay.wpus-position-lc.wpus-hover-show,
+.wpus-rollover .title-overlay.wpus-position-rc.wpus-hover-show,
+.wpus-rollover:hover .title-overlay.wpus-position-cc.wpus-hover-hide,
+.wpus-rollover:hover .title-overlay.wpus-position-lc.wpus-hover-hide,
+.wpus-rollover:hover .title-overlay.wpus-position-rc.wpus-hover-hide {
+    transform: translateY(-30%);
+}
+
+.wpus-rollover .title-overlay.wpus-position-cc.wpus-hover-hide,
+.wpus-rollover .title-overlay.wpus-position-lc.wpus-hover-hide,
+.wpus-rollover .title-overlay.wpus-position-rc.wpus-hover-hide,
+.wpus-rollover:hover .title-overlay.wpus-position-cc.wpus-hover-show,
+.wpus-rollover:hover .title-overlay.wpus-position-lc.wpus-hover-show,
+.wpus-rollover:hover .title-overlay.wpus-position-rc.wpus-hover-show {
+    transform: translateY(-50%);
+}
+
+/** Commons: Animate bacground */
+.bg-animate {
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+.bg-animate-up {
+    animation: bg-up 20s infinite linear;
+}
+
+@keyframes bg-up {
+    from { background-position:0 0; }
+    to   { background-position:0 -300px; }
+}
+
+.bg-animate-right {
+    animation: bg-right 20s infinite linear;
+}
+
+@keyframes bg-right {
+    from { background-position:0 0; }
+    to   { background-position:300px 0; }
+}
+
+.bg-animate-down {
+    animation: bg-down 20s infinite linear;
+}
+
+@keyframes bg-down {
+    from { background-position:0 0; }
+    to   { background-position:0 300px; }
+}
+
+.bg-animate-left {
+    animation: bg-left 20s infinite linear;
+}
+
+@keyframes bg-left {
+    from { background-position:0 0; }
+    to   { background-position:-300px 0; }
+}
+
+/** Commons: Highlight */
+.wpus-highlight {
+    margin: 0 2px;
+    padding-bottom: 0 5px 1px;
+    border-radius: 2px;
+}

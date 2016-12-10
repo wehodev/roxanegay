@@ -1,0 +1,147 @@
+/*-------------------------------------------------------------------------*/
+/* WooCommerce: Products
+/*-------------------------------------------------------------------------*/
+
+.wpus-product {
+    position: relative;
+    overflow: hidden;
+
+    .product-media {
+        position: relative;
+        display: block;
+        overflow: hidden;
+    }
+
+    .product-image {
+        display: block;
+        position: relative;
+        z-index: 2;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        transition: opacity .3s;
+
+        
+    }
+
+    &:hover .wpus-lazy-load {
+        opacity: 1;
+    }
+
+    .product-info {
+        padding-top: 15px;
+    }
+
+    h3 {
+        display: inline;
+        margin: 0;
+        padding-right: 15px;
+        color: $third_color;
+        font-size: $h6_font_size;
+    }
+
+    .price {
+        float: right;
+        display: block;
+        color: $third_color;
+        font-weight: 600;
+        font-size: $h6_font_size;
+        
+        del {
+	        margin-right: 7px;
+	        color: inherit;
+	    }
+
+        span {
+            padding-right: 5px;
+
+            &:last-child {
+                padding-right: 0 !important;
+            }
+        }
+
+        span + span {
+            padding-left: 5px;
+        }
+    }
+
+    ins {
+    	background: none;
+        .amount {
+            color: $accent_color;
+        }
+    }
+    
+    .star-rating {
+        display: none;
+    }
+}
+
+
+.product-loading,
+.product-load {
+
+    img {
+        display: none;
+        opacity: .2 !important;
+    }
+
+    img:last-child {
+        display: block;
+        position: static;
+    }
+
+}
+
+
+.product-loader {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
+    font-size: 30px;
+    color: #333;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s;
+
+    .product-loading & {
+        opacity: 1;
+        visibility: visible;
+    }
+
+}
+
+.product-load {
+    .product-loader {
+        opacity: 1;
+        visibility: visible;
+        animation: none !important;
+        &:before {
+            content: '\f121';
+            font-family: 'adamas-icon' !important;
+        }
+    }
+}
+
+
+
+
+
+
+/** Add to cart button */
+.wpus-product .button {
+
+}
+
+.wpus-product .wc-forward,
+.wpus-product .added_to_cart_button {
+    display: none !important;
+}

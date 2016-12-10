@@ -1,0 +1,27 @@
+/** Widgets: Tags */
+.widget .tagcloud {
+
+    margin: -5px 0 0 -5px;
+
+    a {
+        float: left;
+        margin: 5px 0 0 5px;
+        padding: 0 14px;
+        background-color: $background_color;
+        color: inherit;
+        line-height: 36px !important;
+        white-space: nowrap;
+        border-radius: 2px;
+        transition: color .15s, background-color .15s;
+    }
+    
+    .next {
+        display: none;
+    }
+
+    .site-sidebar & a:hover {
+        background-color: $accent_color;
+        color: #fff;
+    }
+    
+}

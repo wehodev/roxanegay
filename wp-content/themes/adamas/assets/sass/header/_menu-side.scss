@@ -1,0 +1,98 @@
+/** Header: Side Menu */
+.side-navigation {
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 320px;
+    min-width: 280px;
+    width: 100%;
+    background-color: #fff;
+    transition: transform 0.5s;
+    transform: translateX(102%);
+
+    @media only screen and ( max-width: 767px ) {
+        max-width: 75%;
+    }
+
+    .show-navigation & {
+        transform: translateX(0);
+    }
+    
+    .wpus-close {
+        color: #bbb;
+        display: inline-block;
+        padding: 30px 30px 0 50px;
+
+        @media only screen and ( max-width: 767px ) {
+            padding: 30px 30px 0 30px;
+        }
+
+        i {
+            font-size: 12px;
+        }
+    }
+}
+
+.side-menu {
+    padding: 10px 50px 50px;
+
+    @media only screen and ( max-width: 767px ) {
+        padding: 10px 30px 30px;
+    }
+
+    > li {
+        display: block;  
+    }
+
+    a {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        line-height: 1;
+    }
+
+    i {
+        position: absolute;
+        right: 0;
+        transition: transform .3s;
+    }
+
+    .active i {
+        transform: rotate(-180deg);
+    }
+
+    .menu-link {
+        margin: 10px 0;
+        color: #222;
+        font-weight: 600;
+
+        &:hover {
+            color: #bbb;
+        }
+    }
+
+    .sub-menu {
+        display: none;
+        opacity: 1;
+        visibility: visible;
+
+        .sub-menu {
+            margin-left: 15px;
+        }
+
+        a {
+            margin: 8px 0;
+            color:#bbb;
+
+            &:hover {
+                color: #888;
+            }
+
+            &:after {
+                content: none;
+            }
+        }
+    }
+}

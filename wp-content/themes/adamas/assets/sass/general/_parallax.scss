@@ -1,0 +1,57 @@
+/** Parallax */
+%paralax_pos_absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden !important;
+}
+
+.wpus-background {
+
+    @extend %paralax_pos_absolute;
+    background-position: center center;
+    background-size: cover;
+
+    @media (max-width:767px) {
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+}
+
+.wpus-video-bg {
+
+    @extend %paralax_pos_absolute;
+    z-index: 0;
+    pointer-events: none;
+
+    iframe {
+        max-width: 1000%;
+    }
+    
+}
+
+.wpus-parallax {
+    left: 0;
+    right: 0;
+    top: 0;
+    pointer-events: none;
+}
+
+.parallax-up,
+.parallax-down {
+    width: 100%;
+    height: 150%;
+    opacity: 0;
+}
+
+.parallax-right,
+.parallax-left {
+    width: 110%;
+    height: 100%;
+    opacity: 0;
+}

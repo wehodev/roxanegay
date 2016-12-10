@@ -1,0 +1,100 @@
+/** Shortcodes: Image */
+.wpus-figure,
+.wpus-image {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.wpus-figure-caption {
+
+    font-size: $medium_font_size;
+
+    .wpus-gallery & {
+        font-size: 1em;
+    }
+
+    &.title-under {
+        margin-top: .5em;
+        color: $third_color;
+    }
+
+    &.title-overlay {
+        color: #fff;
+        padding: 25px;
+    }
+
+}
+
+.wpus-image {
+    
+    transition: all 0.3s;
+    
+    &, img {
+        border-radius: inherit;
+    }
+
+    * {
+        margin: 0;
+    }
+
+}
+
+figure.wpus-rollover {
+
+    [class^="adamas-icon-"] {
+
+        z-index: 9;
+        position: absolute;
+        font-size: 20px;
+        color: #fff;
+        left: 50%;
+        top: 50%;
+        width: 30px;
+        height: 30px;
+        margin-top: -15px;
+        margin-left: -15px;
+        line-height: 30px;
+        text-align: center;
+        transition: opacity .4s, transform .4s;
+
+        &.wpus-hover-show {
+            transform: translateY(20px);
+        }
+
+        &.wpus-hover-hide {
+            transform: translateY(0px);
+        }
+
+    }
+
+    a:hover {
+
+        [class^="adamas-icon-"].wpus-hover-show {
+            transform: translateY(0px);
+        }
+
+        [class^="adamas-icon-"].wpus-hover-hide {
+            transform: translateY(20px);
+        }
+
+    }
+
+}
+
+
+/** Shortcodes: Flickr / Instagram */
+.wpus-flickr {
+
+    .wpus-rollover {
+        padding-top: 100%;
+        position: static;
+    }
+
+    .wpus-grid-item {
+        overflow: hidden;
+    }
+
+}

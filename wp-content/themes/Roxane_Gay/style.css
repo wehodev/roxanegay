@@ -1,0 +1,482 @@
+/*
+
+Theme Name: Roxane Gay
+Theme URI: http://www.roxanegay.com/
+Description: A custom theme for Roxane Gay's blog.
+Version: 1
+Author: Gene Morgan
+Tags: Movies, Mark Rothko, Roy Lichtenstein, Mad Men, mid century modern furniture, stainless steel, things in miniature, Michael Chabon, Pepsi products, Callas Lillies
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*GREATER STRUCTURE*/
+
+body {
+	background-repeat: repeat;
+	background-image: url(/wp-content/background/rgay_background_01.gif);
+	background-color: #A09FA0;
+	font-family: Helvetica, Sans-Serif;
+	text-align: center;
+	}
+
+
+/**site container**/
+
+
+#page {
+	background-color: #FEF2F8;
+	width: 600px;
+	text-align: left;
+	margin: 80px auto;
+	padding: 50px 50px 50px 50px;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	}	
+	
+/**header**/	
+
+#header {
+	margin: 30px 0px 0px 0px;	
+	height: auto;
+	width: 600px;
+	}
+
+		
+/**linkbar**/
+
+.linkbar {
+	background: #B08B63;
+	width:300px;
+	margin-top: 20px;
+	padding: 5px;
+}
+
+/**content**/
+
+#content {
+    min-height: 600px;
+
+	}
+	
+.post {
+	width: 600px;
+	margin: 100px 0 0px 0;
+
+	}
+
+.post hr {
+	display: block;
+	}
+	
+.postmetadata {
+	text-align: left;
+	}
+
+/***one column site***/
+
+.narrowcolumn {
+	padding: 0 0 10px 0px;
+	margin: 10px 0 0;
+	width: 700px;
+	}
+	
+.narrowcolumn .postmetadata {
+	padding-top: 5px;
+	}	
+		
+/***two column site***/
+
+.widecolumn {
+	padding: 10px 0 20px 0;
+	margin: 5px 0 0;
+	width: 700px;
+	line-height: 1.9em;
+	}
+	
+.widecolumn .post {
+	margin: 0;
+	}
+
+.widecolumn .postmetadata {
+	margin: 30px 0;
+	}
+	
+/**comments**/
+
+.commentlist {
+	padding: 0;
+	text-align: left;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	}
+
+.commentlist p {
+	margin: 15px 5px 10px 0;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+	
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform textarea {
+	width: 100%;
+	padding: 2px;
+	}
+
+#commentform #submit {
+	margin: 0;
+	float: right;
+	}	
+	
+.commentdiv {
+	margin-top: 10px;
+	}
+
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+/**footer**/
+
+#footer {
+
+	padding: 2px 30px 2px 0px;
+	border: none;
+	}
+	
+
+	
+/*END GREATER STRUCTURE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MOSTLY TYPOGRAPHY*/
+	
+h1, h2, h3 {
+	font-family: Helvetica, Sans-Serif;
+	font-weight: normal;
+	color: #CC0033;
+	text-align: left;
+	}
+	
+h1 a, h2 a, a {
+	color: #CC0033;
+	text-decoration: none;
+	}
+	
+h1 a:hover, h2 a:hover, a:hover {
+	color: #B06388;
+	text-decoration: none;
+	}
+
+h1 {
+	font-size: 50px;
+	padding-top: 0px;
+	margin: 0;
+	z-index: 3;
+	}
+
+h2 {
+	font-size: 24px;
+	margin: 10px 100px 10px 0;
+	line-height: 1.3em;
+	}
+
+h3 {
+	font-size: 12px;
+	margin: 80px 0px 0px 0px;
+	}
+	
+h3.comments {
+	font-size: 14px;
+	}
+	
+small, li, .commentmetadata {
+	font-size: 11px;
+	color: #B06388;
+	font-family: Helvetica, Sans-Serif;
+	line-height: 1.5em;
+	}
+	
+small a, .commentmetadata a {
+	color: #B06388;
+	}
+
+small a:hover, .commentmetadata a:hover {
+	color: #CC0033;
+	}
+
+.entry {
+	line-height: 1.9em;
+	font-size: 14px;
+    color: #333366;
+    text-align: justify;
+	}
+	
+.linkbar {
+	word-spacing: 10px;
+	text-align: center;
+	font-size: 12px;
+	font-family: Helvetica, Sans-Serif;
+	color: #FEF2F8;
+	}	
+
+.linkbar a {
+	color: #FEF2F8;
+	}
+	
+.linkbar a:hover {
+	color: #CC0033;
+	}
+
+.alignright {
+	margin: 0px 0px 0px 10px;
+	float: right;
+	}
+
+.alignleft {
+	margin: 0px 10px 0px 0px;
+	float: left
+	}
+	
+#footer {
+	color: #ffffff;
+	font-family: Verdana;
+	text-align: center;
+	font-size:11px;
+	}
+	
+#footer a {
+	color: #FDBFE5;
+	}
+	
+#footer a:hover {
+	color: #FD7CE5;
+}
+	
+/**comments**/
+
+.commentlist li, #commentform input, #commentform textarea {
+	font: 14px Helvetica, Sans-Serif;
+    color: #333366;
+	}
+
+.commentlist li {
+    font-size: 13px;
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-style: normal;
+	font-size: 13px;
+	}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 20px;
+	text-transform: none;
+	}
+
+#commentform p {
+	font-family: Helvetica, Sans-Serif;
+	}
+
+/*END MOSTLY TYPOGRAPHY*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*IMAGES*/
+
+img.lily {
+	position: absolute;
+	right: -300px;
+	top: 180px;
+	z-index: -1;
+	}
+
+p img {
+	padding: 0;
+	max-width: 100%;
+	border: 0px solid #600510;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 0px 0px 10px 10px;
+	display: inline;
+	}
+
+
+img.alignleft {
+	padding: 0px 10px 10px 0px;
+	display: inline;
+	}
+
+	
+/**captions**/
+
+.aligncenter, div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.wp-caption {
+	border: 0px solid #ddd;
+	text-align: center;
+	background-color: #AB0ED0;
+	padding-top: 4px;
+	
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	}
+
+.wp-caption p.wp-caption-text {
+	color: #fdfdfc;
+	font-size: 11px;
+	line-height: 17px;
+	padding: 3px 4px 5px;
+	margin: 0;
+	}
+	
+/*END IMAGES*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*VARIOUS*/
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	margin: 15px 0px 10px 20px;
+	padding: 3px 17px 3px 14px;
+	border-left: 3px solid #B06388;
+    background-color: #FEECF5;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.center {
+	text-align: center;
+	}
+
+.hidden {
+	display: none;
+	}
+
+hr {
+	display: none;
+	}
+
+a img {
+	border: none;
+	}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	}
+
+/*END VARIOUS*/
+

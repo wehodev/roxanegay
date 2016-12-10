@@ -1,0 +1,2827 @@
+# Copyright (C) 2016 Adamas
+# This file is distributed under the same license as the Adamas package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Adamas\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WP Uber Studio <wpuberstudio@gmail.com>\n"
+"Language-Team: wpuberstudio.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
+
+#: 404.php:35, framework/theme_options.php:1499
+msgid "Oops! That Page Can't Be Found."
+msgstr ""
+
+#: 404.php:43, framework/theme_options.php:1507
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: archive.php:29
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:31
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:33
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:35
+msgid "Archives"
+msgstr ""
+
+#: author.php:51
+msgid "Author Archives: %s"
+msgstr ""
+
+#: category.php:51
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:63
+msgctxt "comments title"
+msgid "One reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:93
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:95
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:115
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:137
+msgid "Your Name *"
+msgstr ""
+
+#: comments.php:139
+msgid "Email Address *"
+msgstr ""
+
+#: comments.php:141
+msgid "Website"
+msgstr ""
+
+#: comments.php:151
+msgid "Write your comment here..."
+msgstr ""
+
+#: search.php:51
+msgid "%s Search Results for: %s"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search and hit enter..."
+msgstr ""
+
+#: tag.php:51
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: framework/theme_enqueue.php:226
+msgid "Please select a video file"
+msgstr ""
+
+#: framework/theme_enqueue.php:227
+msgid "Please select a audio file"
+msgstr ""
+
+#: framework/theme_enqueue.php:228
+msgid "Please select a image file"
+msgstr ""
+
+#: framework/theme_enqueue.php:229, framework/classes/menu/custom_walker.php:227
+msgid "Cancel"
+msgstr ""
+
+#: framework/theme_enqueue.php:230
+msgid "Saving..."
+msgstr ""
+
+#: framework/theme_enqueue.php:231
+msgid "Create gallery"
+msgstr ""
+
+#: framework/theme_enqueue.php:232
+msgid "Edit gallery"
+msgstr ""
+
+#: framework/theme_enqueue.php:233
+msgid "Save gallery"
+msgstr ""
+
+#: framework/theme_filters.php:173
+msgid "To view this protected post, enter the password below:"
+msgstr ""
+
+#: framework/theme_filters.php:174
+msgid "Submit"
+msgstr ""
+
+#: framework/theme_options.php:117, framework/theme_options.php:118
+msgid "Theme Options"
+msgstr ""
+
+#: framework/theme_options.php:138
+msgid "General"
+msgstr ""
+
+#: framework/theme_options.php:145
+msgid "General Settings"
+msgstr ""
+
+#: framework/theme_options.php:152
+msgid "Back To Top"
+msgstr ""
+
+#: framework/theme_options.php:153
+msgid "Enabling this option will display a \"Back to Top\" button."
+msgstr ""
+
+#: framework/theme_options.php:160, framework/theme_options.php:322
+msgid "Preloader"
+msgstr ""
+
+#: framework/theme_options.php:161
+msgid "Enabling this option will display a preloader for your site."
+msgstr ""
+
+#: framework/theme_options.php:168
+msgid "Minify Java Script Files"
+msgstr ""
+
+#: framework/theme_options.php:169
+msgid "Minify and load all theme related javascript in one single, minified file."
+msgstr ""
+
+#: framework/theme_options.php:176
+msgid "Minify CSS Files"
+msgstr ""
+
+#: framework/theme_options.php:177
+msgid "Minify and load all theme related css in one single, minified file."
+msgstr ""
+
+#: framework/theme_options.php:184
+msgid "Visual Composer Theme Mode"
+msgstr ""
+
+#: framework/theme_options.php:185
+msgid "If you have purchased a license of the Visual Composer and want to activate it for automatic updates you can do so by disabling the this option."
+msgstr ""
+
+#: framework/theme_options.php:194, framework/theme_options.php:209
+msgid "Favicon"
+msgstr ""
+
+#: framework/theme_options.php:202
+msgid "Favicon Settings"
+msgstr ""
+
+#: framework/theme_options.php:210
+msgid "Choose a favicon image (16px x 16px)"
+msgstr ""
+
+#: framework/theme_options.php:216
+msgid "Apple iPhone Icon"
+msgstr ""
+
+#: framework/theme_options.php:217
+msgid "Choose a favicon image for Apple iPhone (57px x 57px)"
+msgstr ""
+
+#: framework/theme_options.php:223
+msgid "Apple iPhone Retina Icon"
+msgstr ""
+
+#: framework/theme_options.php:224
+msgid "Choose a favicon image for Apple iPhone Retina Version (114px x 114px)"
+msgstr ""
+
+#: framework/theme_options.php:230
+msgid "Apple iPad Iconn"
+msgstr ""
+
+#: framework/theme_options.php:231
+msgid "Choose a favicon image for Apple iPad (72px x 72px)"
+msgstr ""
+
+#: framework/theme_options.php:237
+msgid "Apple iPad Retina Icon"
+msgstr ""
+
+#: framework/theme_options.php:238
+msgid "Choose a favicon image for Apple iPad Retina Version (144px x 144px)"
+msgstr ""
+
+#: framework/theme_options.php:246, framework/theme_options.php:1418
+msgid "Style"
+msgstr ""
+
+#: framework/theme_options.php:253
+msgid "Style Settings"
+msgstr ""
+
+#: framework/theme_options.php:260, framework/metabox/includes/arrows_settings.php:161, framework/metabox/includes/button_settings.php:157, framework/metabox/includes/dots_settings.php:163, framework/metabox/slider/slider-meta.php:374, framework/metabox/slider/slider-meta.php:394
+msgid "Accent Color"
+msgstr ""
+
+#: framework/theme_options.php:261
+msgid "Select accent color."
+msgstr ""
+
+#: framework/theme_options.php:268
+msgid "First Color"
+msgstr ""
+
+#: framework/theme_options.php:269
+msgid "Select first color."
+msgstr ""
+
+#: framework/theme_options.php:276
+msgid "Second Color"
+msgstr ""
+
+#: framework/theme_options.php:277
+msgid "Select second color."
+msgstr ""
+
+#: framework/theme_options.php:284
+msgid "Third Color"
+msgstr ""
+
+#: framework/theme_options.php:285
+msgid "Select third color."
+msgstr ""
+
+#: framework/theme_options.php:292
+msgid "Elements Border Color"
+msgstr ""
+
+#: framework/theme_options.php:293
+msgid "Select element border color."
+msgstr ""
+
+#: framework/theme_options.php:300
+msgid "Elements Background Color"
+msgstr ""
+
+#: framework/theme_options.php:301
+msgid "Select element background color."
+msgstr ""
+
+#: framework/theme_options.php:308, framework/theme_options.php:315
+msgid "Body Background"
+msgstr ""
+
+#: framework/theme_options.php:316
+msgid "Body background with image, color, etc."
+msgstr ""
+
+#: framework/theme_options.php:329
+msgid "Color"
+msgstr ""
+
+#: framework/theme_options.php:330
+msgid "Select color."
+msgstr ""
+
+#: framework/theme_options.php:337, framework/theme_options.php:704, framework/theme_options.php:1425, framework/metabox/slider/slider-meta.php:219
+msgid "Background Color"
+msgstr ""
+
+#: framework/theme_options.php:338
+msgid "Select background color."
+msgstr ""
+
+#: framework/theme_options.php:347
+msgid "Typography"
+msgstr ""
+
+#: framework/theme_options.php:355
+msgid "Body Typography"
+msgstr ""
+
+#: framework/theme_options.php:376
+msgid "Headings Typography"
+msgstr ""
+
+#: framework/theme_options.php:462
+msgid "Menu Typography"
+msgstr ""
+
+#: framework/theme_options.php:469
+msgid "Menu: 1st Level"
+msgstr ""
+
+#: framework/theme_options.php:483
+msgid "Menu: 2nd Level"
+msgstr ""
+
+#: framework/theme_options.php:499, framework/metabox/page/general.inc.php:165
+msgid "Top Bar"
+msgstr ""
+
+#: framework/theme_options.php:506
+msgid "Top Bar Settings"
+msgstr ""
+
+#: framework/theme_options.php:513
+msgid "Show Top Bar"
+msgstr ""
+
+#: framework/theme_options.php:514
+msgid "Enabling this option will show top bar."
+msgstr ""
+
+#: framework/theme_options.php:515, framework/theme_options.php:688, framework/theme_options.php:697, framework/theme_options.php:870, framework/theme_options.php:965
+msgid "This is a global options for every page or post, and this can be overridden by individual page/post options."
+msgstr ""
+
+#: framework/theme_options.php:522, framework/theme_options.php:612
+msgid "Wide Layout"
+msgstr ""
+
+#: framework/theme_options.php:523
+msgid "Enabling this option will display wide top bar."
+msgstr ""
+
+#: framework/theme_options.php:530
+msgid "Top Bar Widget Columns"
+msgstr ""
+
+#: framework/theme_options.php:531
+msgid "Choose number of top bar widget columns."
+msgstr ""
+
+#: framework/theme_options.php:534, framework/theme_options.php:881, framework/theme_options.php:976
+msgid "1 Column"
+msgstr ""
+
+#: framework/theme_options.php:535, framework/theme_options.php:882, framework/theme_options.php:977
+msgid "2 Columns"
+msgstr ""
+
+#: framework/theme_options.php:536, framework/theme_options.php:883, framework/theme_options.php:978
+msgid "3 Columns"
+msgstr ""
+
+#: framework/theme_options.php:543
+msgid "Top Bar Style"
+msgstr ""
+
+#: framework/theme_options.php:550
+msgid "Top Bar Height"
+msgstr ""
+
+#: framework/theme_options.php:561
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: framework/theme_options.php:567
+msgid "Top Bar Text Color"
+msgstr ""
+
+#: framework/theme_options.php:574
+msgid "Top Bar Links Color"
+msgstr ""
+
+#: framework/theme_options.php:583
+msgid "Header"
+msgstr ""
+
+#: framework/theme_options.php:590
+msgid "Header Settings"
+msgstr ""
+
+#: framework/theme_options.php:597, framework/metabox/page/hero.inc.php:33
+msgid "Header Type"
+msgstr ""
+
+#: framework/theme_options.php:598
+msgid "Select header type."
+msgstr ""
+
+#: framework/theme_options.php:600
+msgid "Headere 1"
+msgstr ""
+
+#: framework/theme_options.php:601
+msgid "Headere 2"
+msgstr ""
+
+#: framework/theme_options.php:602
+msgid "Headere 3"
+msgstr ""
+
+#: framework/theme_options.php:603
+msgid "Headere 4"
+msgstr ""
+
+#: framework/theme_options.php:604
+msgid "Headere 5"
+msgstr ""
+
+#: framework/theme_options.php:613
+msgid "Enabling this option will display wide header."
+msgstr ""
+
+#: framework/theme_options.php:620, framework/metabox/page/hero.inc.php:337
+msgid "Header Height"
+msgstr ""
+
+#: framework/theme_options.php:621
+msgid "Adjust the size of your header."
+msgstr ""
+
+#: framework/theme_options.php:631
+msgid "Sticky Header"
+msgstr ""
+
+#: framework/theme_options.php:632
+msgid "Enable / Disable the sticky header."
+msgstr ""
+
+#: framework/theme_options.php:639
+msgid "Sticky Header Height"
+msgstr ""
+
+#: framework/theme_options.php:640
+msgid "Adjust the size of your sticky header."
+msgstr ""
+
+#: framework/theme_options.php:651
+msgid "Menu Type"
+msgstr ""
+
+#: framework/theme_options.php:652
+msgid "Select menu type."
+msgstr ""
+
+#: framework/theme_options.php:654
+msgid "Standart"
+msgstr ""
+
+#: framework/theme_options.php:655
+msgid "Side"
+msgstr ""
+
+#: framework/theme_options.php:663
+msgid "Search Icon"
+msgstr ""
+
+#: framework/theme_options.php:664
+msgid "Enable / Disable the search icon in the header."
+msgstr ""
+
+#: framework/theme_options.php:671
+msgid "Cart Icon"
+msgstr ""
+
+#: framework/theme_options.php:672
+msgid "Enable / Disable the cart icon in the header."
+msgstr ""
+
+#: framework/theme_options.php:679
+msgid "Header Style"
+msgstr ""
+
+#: framework/theme_options.php:686, framework/metabox/page/general.inc.php:207
+msgid "Header Box Shadow"
+msgstr ""
+
+#: framework/theme_options.php:687, framework/theme_options.php:1122, framework/theme_options.php:1403
+msgid "Enable / Disable header box shadow."
+msgstr ""
+
+#: framework/theme_options.php:695, framework/metabox/page/general.inc.php:245
+msgid "Header Border"
+msgstr ""
+
+#: framework/theme_options.php:696, framework/theme_options.php:1130, framework/theme_options.php:1411
+msgid "Enable / Disable header border."
+msgstr ""
+
+#: framework/theme_options.php:705, framework/metabox/page/hero.inc.php:485, framework/metabox/slider/slider-meta.php:220
+msgid "Select header background color."
+msgstr ""
+
+#: framework/theme_options.php:712
+msgid "Border Color"
+msgstr ""
+
+#: framework/theme_options.php:713
+msgid "Select header border color."
+msgstr ""
+
+#: framework/theme_options.php:719
+msgid "Link Color"
+msgstr ""
+
+#: framework/theme_options.php:720
+msgid "Select header link color."
+msgstr ""
+
+#: framework/theme_options.php:727
+msgid "Link Hover Color"
+msgstr ""
+
+#: framework/theme_options.php:728
+msgid "Select header link hover color."
+msgstr ""
+
+#: framework/theme_options.php:735
+msgid "Submenu Background Color"
+msgstr ""
+
+#: framework/theme_options.php:736
+msgid "Select submenu background color."
+msgstr ""
+
+#: framework/theme_options.php:743
+msgid "Submenu Link Color"
+msgstr ""
+
+#: framework/theme_options.php:744
+msgid "Select submenu link color."
+msgstr ""
+
+#: framework/theme_options.php:751
+msgid "Submenu Link Hover Color"
+msgstr ""
+
+#: framework/theme_options.php:752
+msgid "Select submenu link hover color."
+msgstr ""
+
+#: framework/theme_options.php:761, framework/metabox/clients/clients-meta.php:39
+msgid "Logo"
+msgstr ""
+
+#: framework/theme_options.php:769
+msgid "Logo Image"
+msgstr ""
+
+#: framework/theme_options.php:776
+msgid "Default Logo"
+msgstr ""
+
+#: framework/theme_options.php:777, framework/theme_options.php:785, framework/theme_options.php:793, framework/theme_options.php:801
+msgid "Use 2x logo size for retina ready display."
+msgstr ""
+
+#: framework/theme_options.php:784
+msgid "Logo for Light Transparent Header"
+msgstr ""
+
+#: framework/theme_options.php:792
+msgid "Logo for Dark Transparent Header"
+msgstr ""
+
+#: framework/theme_options.php:800
+msgid "Mobile Logo"
+msgstr ""
+
+#: framework/theme_options.php:808
+msgid "Logo Width"
+msgstr ""
+
+#: framework/theme_options.php:815
+msgid "Default Logo: Width"
+msgstr ""
+
+#: framework/theme_options.php:816, framework/theme_options.php:828, framework/theme_options.php:840
+msgid "Enter the 1x logo width, do not enter the 2x logo width."
+msgstr ""
+
+#: framework/theme_options.php:827
+msgid "Sticky Header Logo: Width"
+msgstr ""
+
+#: framework/theme_options.php:839
+msgid "Mobile Logo: Width"
+msgstr ""
+
+#: framework/theme_options.php:854
+msgid "Footer"
+msgstr ""
+
+#: framework/theme_options.php:861
+msgid "Footer Settings"
+msgstr ""
+
+#: framework/theme_options.php:868
+msgid "Footer Widget Area"
+msgstr ""
+
+#: framework/theme_options.php:869
+msgid "Enabling this option will show widgetized footer area."
+msgstr ""
+
+#: framework/theme_options.php:877
+msgid "Footer Widget Columns"
+msgstr ""
+
+#: framework/theme_options.php:878
+msgid "Choose number of footer widget columns."
+msgstr ""
+
+#: framework/theme_options.php:884
+msgid "4 Columns"
+msgstr ""
+
+#: framework/theme_options.php:885
+msgid "5 Columns"
+msgstr ""
+
+#: framework/theme_options.php:886
+msgid "6 Columns"
+msgstr ""
+
+#: framework/theme_options.php:893
+msgid "Fixed Footer"
+msgstr ""
+
+#: framework/theme_options.php:894
+msgid "Enabling this option will display a fixed footer for your site."
+msgstr ""
+
+#: framework/theme_options.php:901
+msgid "Footer Style"
+msgstr ""
+
+#: framework/theme_options.php:908
+msgid "Footer Padding Top/Bottom"
+msgstr ""
+
+#: framework/theme_options.php:919
+msgid "Footer Background Color"
+msgstr ""
+
+#: framework/theme_options.php:925
+msgid "Footer Widget Title Color"
+msgstr ""
+
+#: framework/theme_options.php:932
+msgid "Footer Text Color"
+msgstr ""
+
+#: framework/theme_options.php:939
+msgid "Footer Links Color"
+msgstr ""
+
+#: framework/theme_options.php:948
+msgid "Copyright"
+msgstr ""
+
+#: framework/theme_options.php:956
+msgid "Copyright Settings"
+msgstr ""
+
+#: framework/theme_options.php:963
+msgid "Show Copyright Area"
+msgstr ""
+
+#: framework/theme_options.php:964
+msgid "Enabling this option will show copyright area."
+msgstr ""
+
+#: framework/theme_options.php:972
+msgid "Copyright Widget Columns"
+msgstr ""
+
+#: framework/theme_options.php:973
+msgid "Choose number of copyright widget columns."
+msgstr ""
+
+#: framework/theme_options.php:985
+msgid "Copyright Style"
+msgstr ""
+
+#: framework/theme_options.php:992
+msgid "Copyright Padding Top/Bottom"
+msgstr ""
+
+#: framework/theme_options.php:1003
+msgid "Copyright Background Color"
+msgstr ""
+
+#: framework/theme_options.php:1009
+msgid "Copyright Border Color"
+msgstr ""
+
+#: framework/theme_options.php:1015
+msgid "Copyright Text Color"
+msgstr ""
+
+#: framework/theme_options.php:1022
+msgid "Copyright Links Color"
+msgstr ""
+
+#: framework/theme_options.php:1031
+msgid "Blog"
+msgstr ""
+
+#: framework/theme_options.php:1038
+msgid "Blog Settings"
+msgstr ""
+
+#: framework/theme_options.php:1045
+msgid "Blog Header Adamas Slider"
+msgstr ""
+
+#: framework/theme_options.php:1046
+msgid "Select blog header slider."
+msgstr ""
+
+#: framework/theme_options.php:1053
+msgid "Blog Layout"
+msgstr ""
+
+#: framework/theme_options.php:1054
+msgid "Select the blog layout."
+msgstr ""
+
+#: framework/theme_options.php:1056, framework/theme_options.php:1157, framework/theme_options.php:1262, framework/theme_options.php:1453
+msgid "No sidebar"
+msgstr ""
+
+#: framework/theme_options.php:1057, framework/theme_options.php:1158, framework/theme_options.php:1263, framework/theme_options.php:1454
+msgid "Right sidebar"
+msgstr ""
+
+#: framework/theme_options.php:1058, framework/theme_options.php:1159, framework/theme_options.php:1264, framework/theme_options.php:1455
+msgid "Left sidebar"
+msgstr ""
+
+#: framework/theme_options.php:1066
+msgid "Blog Template"
+msgstr ""
+
+#: framework/theme_options.php:1067
+msgid "Select the blog template."
+msgstr ""
+
+#: framework/theme_options.php:1069
+msgid "Large Image"
+msgstr ""
+
+#: framework/theme_options.php:1070
+msgid "Medium Image"
+msgstr ""
+
+#: framework/theme_options.php:1071
+msgid "Grid"
+msgstr ""
+
+#: framework/theme_options.php:1072
+msgid "Masonry"
+msgstr ""
+
+#: framework/theme_options.php:1080
+msgid "Blog Pagination"
+msgstr ""
+
+#: framework/theme_options.php:1081
+msgid "Select the blog pagination type."
+msgstr ""
+
+#: framework/theme_options.php:1083, framework/theme_options.php:1291
+msgid "Numbered Pagination"
+msgstr ""
+
+#: framework/theme_options.php:1084, framework/theme_options.php:1292, framework/functions/loadmore.php:57, framework/functions/loadmore.php:61, framework/functions/loadmore.php:65
+msgid "Load More"
+msgstr ""
+
+#: framework/theme_options.php:1092, framework/theme_options.php:1176, framework/metabox/page/post.inc.php:33
+msgid "Featured Image"
+msgstr ""
+
+#: framework/theme_options.php:1093, framework/theme_options.php:1177
+msgid "Enable / Disable the featured image."
+msgstr ""
+
+#: framework/theme_options.php:1100
+msgid "Excerpt or Full Blog Content"
+msgstr ""
+
+#: framework/theme_options.php:1101
+msgid "Choose to display an excerpt or full content on blog pages."
+msgstr ""
+
+#: framework/theme_options.php:1103
+msgid "Excerpt"
+msgstr ""
+
+#: framework/theme_options.php:1104
+msgid "Full Content"
+msgstr ""
+
+#: framework/theme_options.php:1112, framework/theme_options.php:1473
+msgid "Excerpt Length"
+msgstr ""
+
+#: framework/theme_options.php:1113
+msgid "Insert the number of words you want to show in the post excerpts."
+msgstr ""
+
+#: framework/theme_options.php:1121, framework/theme_options.php:1402
+msgid "Disable Header Box Shadow"
+msgstr ""
+
+#: framework/theme_options.php:1129, framework/theme_options.php:1410
+msgid "Disable Header Border"
+msgstr ""
+
+#: framework/theme_options.php:1139, framework/theme_options.php:1147
+msgid "Single Post"
+msgstr ""
+
+#: framework/theme_options.php:1154
+msgid "Post Layout"
+msgstr ""
+
+#: framework/theme_options.php:1155
+msgid "Select the post layout."
+msgstr ""
+
+#: framework/theme_options.php:1167, framework/theme_options.php:1463
+msgid "Search Page Sidebar"
+msgstr ""
+
+#: framework/theme_options.php:1168, framework/theme_options.php:1464
+msgid "Select the search page sidebar."
+msgstr ""
+
+#: framework/theme_options.php:1184, framework/metabox/page/post.inc.php:71
+msgid "Metadata"
+msgstr ""
+
+#: framework/theme_options.php:1185
+msgid "Enable / Disable the metadata."
+msgstr ""
+
+#: framework/theme_options.php:1192
+msgid "Social Sharing"
+msgstr ""
+
+#: framework/theme_options.php:1193
+msgid "Enable / Disable the social sharing."
+msgstr ""
+
+#: framework/theme_options.php:1200, framework/metabox/page/post.inc.php:147
+msgid "Post Navigation"
+msgstr ""
+
+#: framework/theme_options.php:1201
+msgid "Enable / Disable the post navigation."
+msgstr ""
+
+#: framework/theme_options.php:1210
+msgid "Portfolio"
+msgstr ""
+
+#: framework/theme_options.php:1217
+msgid "Portfolio Settings"
+msgstr ""
+
+#: framework/theme_options.php:1224
+msgid "Portfolio Slug"
+msgstr ""
+
+#: framework/theme_options.php:1225
+msgid "Enter if you wish to use a different Single Project slug."
+msgstr ""
+
+#: framework/theme_options.php:1232
+msgid "Single Project Prev / Next Link"
+msgstr ""
+
+#: framework/theme_options.php:1233
+msgid "Enabling this option will display a \"Prev / Next\" link."
+msgstr ""
+
+#: framework/theme_options.php:1245
+msgid "Shop"
+msgstr ""
+
+#: framework/theme_options.php:1252
+msgid "Shop General Settings"
+msgstr ""
+
+#: framework/theme_options.php:1259
+msgid "Shop Layout"
+msgstr ""
+
+#: framework/theme_options.php:1260
+msgid "Select the shop layout."
+msgstr ""
+
+#: framework/theme_options.php:1272
+msgid "Products per Page"
+msgstr ""
+
+#: framework/theme_options.php:1273
+msgid "Number of products per page."
+msgstr ""
+
+#: framework/theme_options.php:1274
+msgid "12"
+msgstr ""
+
+#: framework/theme_options.php:1280
+msgid "Tool Bar"
+msgstr ""
+
+#: framework/theme_options.php:1281
+msgid "Enable / Disable the shop tool bar."
+msgstr ""
+
+#: framework/theme_options.php:1288
+msgid "Shop Pagination"
+msgstr ""
+
+#: framework/theme_options.php:1289
+msgid "Select pagination type."
+msgstr ""
+
+#: framework/theme_options.php:1300
+msgid "Shop Columns Settings"
+msgstr ""
+
+#: framework/theme_options.php:1307
+msgid "Maximum Columns"
+msgstr ""
+
+#: framework/theme_options.php:1308
+msgid "Maximum columns on desktop."
+msgstr ""
+
+#: framework/theme_options.php:1316
+msgid "Columns on Notebook"
+msgstr ""
+
+#: framework/theme_options.php:1317
+msgid "Maximum columns on notebook."
+msgstr ""
+
+#: framework/theme_options.php:1325
+msgid "Columns on Tablet"
+msgstr ""
+
+#: framework/theme_options.php:1326
+msgid "Maximum columns on tablet."
+msgstr ""
+
+#: framework/theme_options.php:1334
+msgid "Columns on Mobile"
+msgstr ""
+
+#: framework/theme_options.php:1335
+msgid "Maximum columns on mobile."
+msgstr ""
+
+#: framework/theme_options.php:1343
+msgid "Columns Margin Right"
+msgstr ""
+
+#: framework/theme_options.php:1344
+msgid "Select items margin right."
+msgstr ""
+
+#: framework/theme_options.php:1352
+msgid "Columns Margin Bottom"
+msgstr ""
+
+#: framework/theme_options.php:1353
+msgid "Select items margin bottom."
+msgstr ""
+
+#: framework/theme_options.php:1363
+msgid "Single Product"
+msgstr ""
+
+#: framework/theme_options.php:1371
+msgid "Product Settings"
+msgstr ""
+
+#: framework/theme_options.php:1378
+msgid "Breadcrumb"
+msgstr ""
+
+#: framework/theme_options.php:1379
+msgid "Enable / Disable breadcrumb."
+msgstr ""
+
+#: framework/theme_options.php:1386
+msgid "Lightbox Image"
+msgstr ""
+
+#: framework/theme_options.php:1387
+msgid "Enable / Disable lightbox image."
+msgstr ""
+
+#: framework/theme_options.php:1394
+msgid "Related Products"
+msgstr ""
+
+#: framework/theme_options.php:1395
+msgid "Enable / Disable related products."
+msgstr ""
+
+#: framework/theme_options.php:1426
+msgid "Product details background color."
+msgstr ""
+
+#: framework/theme_options.php:1436
+msgid "Search Page"
+msgstr ""
+
+#: framework/theme_options.php:1443
+msgid "Search Page Settings"
+msgstr ""
+
+#: framework/theme_options.php:1450
+msgid "Search Page Layout"
+msgstr ""
+
+#: framework/theme_options.php:1451
+msgid "Select the search page layout."
+msgstr ""
+
+#: framework/theme_options.php:1474
+msgid "Enter the number of words you want to show in the post excerpts."
+msgstr ""
+
+#: framework/theme_options.php:1483
+msgid "404 Page"
+msgstr ""
+
+#: framework/theme_options.php:1490
+msgid "404 Page Settings"
+msgstr ""
+
+#: framework/theme_options.php:1497, framework/classes/shared.php:289, framework/metabox/page/hero.inc.php:169, framework/metabox/slider/slider-meta.php:257
+msgid "Title"
+msgstr ""
+
+#: framework/theme_options.php:1498
+msgid "Enter title for 404 page."
+msgstr ""
+
+#: framework/theme_options.php:1505
+msgid "Subtitle"
+msgstr ""
+
+#: framework/theme_options.php:1506
+msgid "Enter subtitle for 404 page."
+msgstr ""
+
+#: framework/theme_options.php:1513
+msgid "Search Form"
+msgstr ""
+
+#: framework/theme_options.php:1514
+msgid "Enable / Disable the search form."
+msgstr ""
+
+#: framework/theme_options.php:1522
+msgid "Third Party API"
+msgstr ""
+
+#: framework/theme_options.php:1530
+msgid ""
+"<ol class=\"adamas_redux_info\">\n"
+"                                <li>Go to <a href=\"%s\">dev.twitter.com/apps</a>, login with your twitter account and click \"Create a new application\".</li>\n"
+"                                <li>Fill out the required fields, accept the rules of the road, and then click on the \"Create your Twitter application\" button. You will not need a callback URL for this app, so feel free to leave it blank.</li>\n"
+"                                <li>Once the app has been created, click the \"Create my access token\" button.</li>\n"
+"                                <li>You are done! You will need the following data later on:</li>\n"
+"                            </ol>"
+msgstr ""
+
+#: framework/theme_options.php:1542
+msgid "Twitter API Settings"
+msgstr ""
+
+#: framework/theme_options.php:1549
+msgid "Twitter Consumer Key"
+msgstr ""
+
+#: framework/theme_options.php:1550
+msgid "Enter twitter consumer key."
+msgstr ""
+
+#: framework/theme_options.php:1556
+msgid "Twitter Consumer Secret"
+msgstr ""
+
+#: framework/theme_options.php:1557
+msgid "Enter twitter consumer secret."
+msgstr ""
+
+#: framework/theme_options.php:1565, framework/theme_options.php:1572
+msgid "Custom Code"
+msgstr ""
+
+#: framework/theme_options.php:1579
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/theme_options.php:1580
+msgid "Paste your custom CSS code here."
+msgstr ""
+
+#: framework/theme_options.php:1588
+msgid "Header JavaScript Code"
+msgstr ""
+
+#: framework/theme_options.php:1589
+msgid "Paste your custom JS code here. The code will be added to the header of your site. Note: jQuery selector is \"$j\" because of the conflict mode."
+msgstr ""
+
+#: framework/theme_options.php:1597
+msgid "Footer JavaScript Code"
+msgstr ""
+
+#: framework/theme_options.php:1598
+msgid "Paste your custom JS code here. The code will be added to the footer of your site. Note: jQuery selector is \"$j\" because of the conflict mode"
+msgstr ""
+
+#: framework/theme_options.php:1608
+msgid "Import / Export"
+msgstr ""
+
+#: framework/theme_options.php:1615
+msgid "Import Export"
+msgstr ""
+
+#: framework/theme_options.php:1616
+msgid "Save and restore your theme options."
+msgstr ""
+
+#: framework/theme_sidebars.php:32
+msgid "Page Sidebar"
+msgstr ""
+
+#: framework/theme_sidebars.php:33
+msgid "The page sidebar."
+msgstr ""
+
+#: framework/theme_sidebars.php:43
+msgid "Blog Sidebar"
+msgstr ""
+
+#: framework/theme_sidebars.php:44
+msgid "The blog sidebar."
+msgstr ""
+
+#: framework/theme_sidebars.php:55
+msgid "Shop Sidebar"
+msgstr ""
+
+#: framework/theme_sidebars.php:56
+msgid "The shop sidebar."
+msgstr ""
+
+#: framework/theme_sidebars.php:69
+msgid "The top bar widget area. Support widgets: Text and Custom Menu."
+msgstr ""
+
+#: framework/theme_sidebars.php:77
+msgid "Top Bar Sidebar"
+msgstr ""
+
+#: framework/theme_sidebars.php:79
+msgid "Top Bar Sidebar %d"
+msgstr ""
+
+#: framework/theme_sidebars.php:89
+msgid "The footer widget area."
+msgstr ""
+
+#: framework/theme_sidebars.php:97
+msgid "Footer Sidebar"
+msgstr ""
+
+#: framework/theme_sidebars.php:99
+msgid "Footer Sidebar %d"
+msgstr ""
+
+#: framework/theme_sidebars.php:109
+msgid "The copyright widget area. Support widgets: Text and Custom Menu."
+msgstr ""
+
+#: framework/theme_sidebars.php:117
+msgid "Copyright Sidebar"
+msgstr ""
+
+#: framework/theme_sidebars.php:119
+msgid "Copyright Sidebar %d"
+msgstr ""
+
+#: framework/theme_support.php:45
+msgid "Primary Navigation"
+msgstr ""
+
+#: framework/theme_support.php:46
+msgid "Mobile Navigation"
+msgstr ""
+
+#: framework/theme_woocommerce.php:243
+msgid "Subtotal"
+msgstr ""
+
+#: framework/theme_woocommerce.php:280
+msgid "View Cart"
+msgstr ""
+
+#: framework/theme_woocommerce.php:281
+msgid "Checkout"
+msgstr ""
+
+#: framework/theme_woocommerce.php:285
+msgid "No products in the cart."
+msgstr ""
+
+#: framework/theme_woocommerce.php:308
+msgid "Sale"
+msgstr ""
+
+#: partials/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: partials/content-none.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: partials/content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: partials/content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: framework/classes/helper.php:241
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: framework/classes/shared.php:59
+msgid "Square (600X600)"
+msgstr ""
+
+#: framework/classes/shared.php:60
+msgid "Square Large (1200X1200)"
+msgstr ""
+
+#: framework/classes/shared.php:61
+msgid "Landscape (800X600)"
+msgstr ""
+
+#: framework/classes/shared.php:62
+msgid "Landscape Wide (800X500)"
+msgstr ""
+
+#: framework/classes/shared.php:63
+msgid "Landscape Large (1170X660)"
+msgstr ""
+
+#: framework/classes/shared.php:64
+msgid "Portrait (600X800)"
+msgstr ""
+
+#: framework/classes/shared.php:65
+msgid "Portrait Large (600X1120)"
+msgstr ""
+
+#: framework/classes/shared.php:66
+msgctxt "Image Size"
+msgid "Thumbnail"
+msgstr ""
+
+#: framework/classes/shared.php:67
+msgctxt "Image Size"
+msgid "Large"
+msgstr ""
+
+#: framework/classes/shared.php:68
+msgctxt "Image Size"
+msgid "Full"
+msgstr ""
+
+#: framework/classes/shared.php:69
+msgctxt "Image Size"
+msgid "Custom Size"
+msgstr ""
+
+#: framework/classes/shared.php:100, framework/classes/shared.php:128, framework/classes/shared.php:153, framework/classes/shared.php:169, framework/classes/shared.php:189, framework/classes/shared.php:335, framework/classes/shared.php:607, framework/metabox/page/footer.inc.php:45, framework/metabox/page/footer.inc.php:81, framework/metabox/page/general.inc.php:97, framework/metabox/page/general.inc.php:139, framework/metabox/page/general.inc.php:179, framework/metabox/page/general.inc.php:221, framework/metabox/page/general.inc.php:259, framework/metabox/page/hero.inc.php:241, framework/metabox/page/post.inc.php:47, framework/metabox/page/post.inc.php:85, framework/metabox/page/post.inc.php:123, framework/metabox/page/post.inc.php:161, framework/metabox/includes/background_settings.php:57, framework/metabox/includes/background_settings.php:93, framework/metabox/includes/background_settings.php:129, framework/metabox/includes/background_settings.php:165, framework/metabox/slider/slider-meta.php:351, framework/metabox/slider/slider-meta.php:370, framework/metabox/slider/slider-meta.php:390
+msgid "Default"
+msgstr ""
+
+#: framework/classes/shared.php:154, framework/classes/shared.php:221, framework/classes/shared.php:286, framework/metabox/page/hero.inc.php:47
+msgid "None"
+msgstr ""
+
+#: framework/classes/shared.php:155
+msgid "Solid"
+msgstr ""
+
+#: framework/classes/shared.php:156
+msgid "Dotted"
+msgstr ""
+
+#: framework/classes/shared.php:157
+msgid "Dashed"
+msgstr ""
+
+#: framework/classes/shared.php:158
+msgid "Double"
+msgstr ""
+
+#: framework/classes/shared.php:190, framework/metabox/page/hero.inc.php:243, framework/metabox/includes/dots_settings.php:125, framework/metabox/slider/slider-meta.php:352
+msgid "Left"
+msgstr ""
+
+#: framework/classes/shared.php:191, framework/metabox/page/hero.inc.php:247, framework/metabox/includes/dots_settings.php:127, framework/metabox/slider/slider-meta.php:354
+msgid "Right"
+msgstr ""
+
+#: framework/classes/shared.php:192, framework/metabox/page/hero.inc.php:245, framework/metabox/includes/dots_settings.php:123, framework/metabox/slider/slider-meta.php:353
+msgid "Center"
+msgstr ""
+
+#: framework/classes/shared.php:222
+msgctxt "Image Hover"
+msgid "Grow"
+msgstr ""
+
+#: framework/classes/shared.php:223
+msgctxt "Image Hover"
+msgid "Shrink"
+msgstr ""
+
+#: framework/classes/shared.php:234, framework/classes/shared.php:274, framework/metabox/page/footer.inc.php:49, framework/metabox/page/footer.inc.php:85, framework/metabox/page/general.inc.php:183, framework/metabox/page/general.inc.php:223, framework/metabox/page/general.inc.php:261, framework/metabox/page/hero.inc.php:545, framework/metabox/page/hero.inc.php:583, framework/metabox/page/post.inc.php:51, framework/metabox/page/post.inc.php:89, framework/metabox/page/post.inc.php:127, framework/metabox/page/post.inc.php:165, framework/metabox/slider/slider-meta.php:124, framework/metabox/slider/slider-meta.php:410, framework/metabox/slider/slider-meta.php:429
+msgid "No"
+msgstr ""
+
+#: framework/classes/shared.php:235
+msgid "1 Second"
+msgstr ""
+
+#: framework/classes/shared.php:236
+msgid "2 Seconds"
+msgstr ""
+
+#: framework/classes/shared.php:237
+msgid "3 Seconds"
+msgstr ""
+
+#: framework/classes/shared.php:238
+msgid "4 Seconds"
+msgstr ""
+
+#: framework/classes/shared.php:239
+msgid "5 Seconds"
+msgstr ""
+
+#: framework/classes/shared.php:240
+msgid "6 Seconds"
+msgstr ""
+
+#: framework/classes/shared.php:241
+msgid "7 Seconds"
+msgstr ""
+
+#: framework/classes/shared.php:242
+msgid "8 Seconds"
+msgstr ""
+
+#: framework/classes/shared.php:243
+msgid "9 Seconds"
+msgstr ""
+
+#: framework/classes/shared.php:244
+msgid "10 Seconds"
+msgstr ""
+
+#: framework/classes/shared.php:245
+msgid "11 Seconds"
+msgstr ""
+
+#: framework/classes/shared.php:246
+msgid "12 Seconds"
+msgstr ""
+
+#: framework/classes/shared.php:247
+msgid "13 Seconds"
+msgstr ""
+
+#: framework/classes/shared.php:248
+msgid "14 Seconds"
+msgstr ""
+
+#: framework/classes/shared.php:249
+msgid "15 Seconds"
+msgstr ""
+
+#: framework/classes/shared.php:260
+msgid "Always Hide"
+msgstr ""
+
+#: framework/classes/shared.php:261
+msgid "Show on Mouse Hover"
+msgstr ""
+
+#: framework/classes/shared.php:262
+msgid "Hide on Mouse Hover"
+msgstr ""
+
+#: framework/classes/shared.php:263, framework/metabox/includes/arrows_settings.php:59, framework/metabox/includes/dots_settings.php:59
+msgid "Always Show"
+msgstr ""
+
+#: framework/classes/shared.php:275, framework/metabox/page/footer.inc.php:47, framework/metabox/page/footer.inc.php:83, framework/metabox/page/general.inc.php:181, framework/metabox/page/general.inc.php:225, framework/metabox/page/general.inc.php:263, framework/metabox/page/hero.inc.php:585, framework/metabox/page/post.inc.php:49, framework/metabox/page/post.inc.php:87, framework/metabox/page/post.inc.php:125, framework/metabox/page/post.inc.php:163, framework/metabox/slider/slider-meta.php:125, framework/metabox/slider/slider-meta.php:430
+msgid "Yes"
+msgstr ""
+
+#: framework/classes/shared.php:287
+msgid "ID"
+msgstr ""
+
+#: framework/classes/shared.php:288
+msgid "Author"
+msgstr ""
+
+#: framework/classes/shared.php:290
+msgid "Name"
+msgstr ""
+
+#: framework/classes/shared.php:291
+msgid "Date"
+msgstr ""
+
+#: framework/classes/shared.php:292
+msgid "Modified"
+msgstr ""
+
+#: framework/classes/shared.php:293
+msgid "Rand"
+msgstr ""
+
+#: framework/classes/shared.php:304
+msgid "Ascending"
+msgstr ""
+
+#: framework/classes/shared.php:305
+msgid "Descending"
+msgstr ""
+
+#: framework/classes/shared.php:316, framework/classes/shared.php:529
+msgid "Left Top"
+msgstr ""
+
+#: framework/classes/shared.php:317, framework/classes/shared.php:530
+msgid "Left center"
+msgstr ""
+
+#: framework/classes/shared.php:318, framework/classes/shared.php:531
+msgid "Left Bottom"
+msgstr ""
+
+#: framework/classes/shared.php:319, framework/classes/shared.php:532
+msgid "Center Top"
+msgstr ""
+
+#: framework/classes/shared.php:320, framework/classes/shared.php:533
+msgid "Center Center"
+msgstr ""
+
+#: framework/classes/shared.php:321, framework/classes/shared.php:534
+msgid "Center Bottom"
+msgstr ""
+
+#: framework/classes/shared.php:322, framework/classes/shared.php:535
+msgid "Right Top"
+msgstr ""
+
+#: framework/classes/shared.php:323, framework/classes/shared.php:536
+msgid "Right center"
+msgstr ""
+
+#: framework/classes/shared.php:324, framework/classes/shared.php:537
+msgid "Right Bottom"
+msgstr ""
+
+#: framework/classes/shared.php:356
+msgid "Style 1"
+msgstr ""
+
+#: framework/classes/shared.php:357
+msgid "Style 2"
+msgstr ""
+
+#: framework/classes/shared.php:358
+msgid "Style 3"
+msgstr ""
+
+#: framework/classes/shared.php:359
+msgid "Style 4"
+msgstr ""
+
+#: framework/classes/shared.php:360
+msgid "Style 5"
+msgstr ""
+
+#: framework/classes/shared.php:361
+msgid "Style 6"
+msgstr ""
+
+#: framework/classes/shared.php:405, framework/metabox/clients/clients-meta.php:119, framework/metabox/includes/button_settings.php:57
+msgid "Same Window"
+msgstr ""
+
+#: framework/classes/shared.php:406, framework/metabox/clients/clients-meta.php:121, framework/metabox/includes/button_settings.php:59
+msgid "New Window"
+msgstr ""
+
+#: framework/classes/shared.php:443
+msgid "Select Adamas Slider..."
+msgstr ""
+
+#: framework/classes/shared.php:448, framework/classes/shared.php:474
+msgid "No sliders found"
+msgstr ""
+
+#: framework/classes/shared.php:468
+msgid "Select Revolution Slider..."
+msgstr ""
+
+#: framework/classes/shared.php:488
+msgid "No Repeat"
+msgstr ""
+
+#: framework/classes/shared.php:489
+msgid "Repeat All"
+msgstr ""
+
+#: framework/classes/shared.php:490
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: framework/classes/shared.php:491
+msgid "Repeat Vertically"
+msgstr ""
+
+#: framework/classes/shared.php:492, framework/classes/shared.php:503, framework/classes/shared.php:518
+msgid "Inherit"
+msgstr ""
+
+#: framework/classes/shared.php:504
+msgid "Cover"
+msgstr ""
+
+#: framework/classes/shared.php:505
+msgid "Contain"
+msgstr ""
+
+#: framework/classes/shared.php:516
+msgid "Fixed"
+msgstr ""
+
+#: framework/classes/shared.php:517
+msgid "Scroll"
+msgstr ""
+
+#: framework/classes/shared.php:548
+msgid "Animate Up"
+msgstr ""
+
+#: framework/classes/shared.php:549
+msgid "Animate Right"
+msgstr ""
+
+#: framework/classes/shared.php:550
+msgid "Animate Down"
+msgstr ""
+
+#: framework/classes/shared.php:551
+msgid "Animate Left"
+msgstr ""
+
+#: framework/classes/shared.php:562
+msgid "Paralax Up"
+msgstr ""
+
+#: framework/classes/shared.php:563
+msgid "Paralax Right"
+msgstr ""
+
+#: framework/classes/shared.php:564
+msgid "Paralax Down"
+msgstr ""
+
+#: framework/classes/shared.php:565
+msgid "Paralax Left"
+msgstr ""
+
+#: framework/classes/shared.php:576
+msgid "Ultra Light 100"
+msgstr ""
+
+#: framework/classes/shared.php:577
+msgid "Light 200"
+msgstr ""
+
+#: framework/classes/shared.php:578
+msgid "Book 300"
+msgstr ""
+
+#: framework/classes/shared.php:579
+msgid "Normal 400"
+msgstr ""
+
+#: framework/classes/shared.php:580
+msgid "Medium 500"
+msgstr ""
+
+#: framework/classes/shared.php:581
+msgid "Semi Bold 600"
+msgstr ""
+
+#: framework/classes/shared.php:582
+msgid "Bold 700"
+msgstr ""
+
+#: framework/classes/shared.php:583
+msgid "Extra Bold 800"
+msgstr ""
+
+#: framework/classes/shared.php:584
+msgid "Ultra Bold 900"
+msgstr ""
+
+#: framework/classes/shared.php:595
+msgid "Normal"
+msgstr ""
+
+#: framework/classes/shared.php:596
+msgid "Italic"
+msgstr ""
+
+#: framework/classes/sidebars.php:48
+msgid "Create Widget Area"
+msgstr ""
+
+#: framework/classes/sidebars.php:49
+msgid "Enter Name of the new Widget Area"
+msgstr ""
+
+#: framework/classes/sidebars.php:50
+msgid "Add Widget Area"
+msgstr ""
+
+#: framework/classes/sidebars.php:151
+msgid "The custom sidebar."
+msgstr ""
+
+#: framework/functions/breadcrumbs.php:33
+msgid "Home"
+msgstr ""
+
+#: framework/functions/breadcrumbs.php:209
+msgid "g:i a"
+msgstr ""
+
+#: framework/functions/breadcrumbs.php:212
+msgid "Minute %1$s"
+msgstr ""
+
+#: framework/functions/breadcrumbs.php:212
+msgid "i"
+msgstr ""
+
+#: framework/functions/breadcrumbs.php:215
+msgid "g a"
+msgstr ""
+
+#: framework/functions/breadcrumbs.php:226, framework/functions/breadcrumbs.php:226, framework/functions/breadcrumbs.php:232, framework/functions/breadcrumbs.php:232, framework/functions/breadcrumbs.php:237, framework/functions/breadcrumbs.php:237, framework/functions/breadcrumbs.php:242
+msgid "Y"
+msgstr ""
+
+#: framework/functions/breadcrumbs.php:227, framework/functions/breadcrumbs.php:227, framework/functions/breadcrumbs.php:238
+msgid "F"
+msgstr ""
+
+#: framework/functions/breadcrumbs.php:228
+msgid "j"
+msgstr ""
+
+#: framework/functions/breadcrumbs.php:233
+msgid "Week %1$s"
+msgstr ""
+
+#: framework/functions/breadcrumbs.php:233
+msgid "W"
+msgstr ""
+
+#: framework/functions/breadcrumbs.php:249
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#: framework/functions/breadcrumbs.php:254
+msgid "404 Not Found"
+msgstr ""
+
+#: framework/functions/loadmore.php:58
+msgid "Loading Projects"
+msgstr ""
+
+#: framework/functions/loadmore.php:59
+msgid "No More Projects to Show"
+msgstr ""
+
+#: framework/functions/loadmore.php:62
+msgid "Loading Products"
+msgstr ""
+
+#: framework/functions/loadmore.php:63
+msgid "No More Products to Show"
+msgstr ""
+
+#: framework/functions/loadmore.php:66
+msgid "Loading Posts"
+msgstr ""
+
+#: framework/functions/loadmore.php:67
+msgid "No More Posts to Show"
+msgstr ""
+
+#: framework/widgets/widget-flickr.php:21
+msgid "Adamas Flickr"
+msgstr ""
+
+#: framework/widgets/widget-flickr.php:22
+msgid "Displays your latest flickr photos."
+msgstr ""
+
+#: framework/widgets/widget-flickr.php:66, framework/widgets/widget-flickr.php:66
+msgid "Flickr Image"
+msgstr ""
+
+#: framework/widgets/widget-flickr.php:109
+msgid "Find your Flickr ID"
+msgstr ""
+
+#: framework/widgets/widget-flickr.php:113, framework/widgets/widget-instagram.php:109, framework/widgets/widget-portfolio.php:95, framework/widgets/widget-posts.php:95, framework/widgets/widget-twitter.php:114
+msgid "Title:"
+msgstr ""
+
+#: framework/widgets/widget-flickr.php:118
+msgid "Flickr ID:"
+msgstr ""
+
+#: framework/widgets/widget-flickr.php:123, framework/widgets/widget-instagram.php:119
+msgid "Number of photos:"
+msgstr ""
+
+#: framework/widgets/widget-instagram.php:21
+msgid "Adamas Instagram"
+msgstr ""
+
+#: framework/widgets/widget-instagram.php:22
+msgid "Displays your latest instagram photos."
+msgstr ""
+
+#: framework/widgets/widget-instagram.php:66, framework/widgets/widget-instagram.php:66
+msgid "Instagram Image"
+msgstr ""
+
+#: framework/widgets/widget-instagram.php:114
+msgid "Username:"
+msgstr ""
+
+#: framework/widgets/widget-portfolio.php:21
+msgid "Adamas Portfolio"
+msgstr ""
+
+#: framework/widgets/widget-portfolio.php:22
+msgid "Displays your projects."
+msgstr ""
+
+#: framework/widgets/widget-portfolio.php:100, framework/widgets/widget-posts.php:100
+msgid "Category:"
+msgstr ""
+
+#: framework/widgets/widget-portfolio.php:102, framework/widgets/widget-posts.php:102
+msgid "All"
+msgstr ""
+
+#: framework/widgets/widget-portfolio.php:111, framework/widgets/widget-posts.php:111
+msgid "Order by:"
+msgstr ""
+
+#: framework/widgets/widget-portfolio.php:113, framework/widgets/widget-posts.php:113
+msgid "Recent"
+msgstr ""
+
+#: framework/widgets/widget-portfolio.php:114, framework/widgets/widget-posts.php:114
+msgid "Popular"
+msgstr ""
+
+#: framework/widgets/widget-portfolio.php:115, framework/widgets/widget-posts.php:115
+msgid "Random"
+msgstr ""
+
+#: framework/widgets/widget-portfolio.php:116, framework/widgets/widget-posts.php:116
+msgid "Last modified"
+msgstr ""
+
+#: framework/widgets/widget-portfolio.php:121
+msgid "Number of projects to show:"
+msgstr ""
+
+#: framework/widgets/widget-portfolio.php:156
+msgid "No projects yet."
+msgstr ""
+
+#: framework/widgets/widget-posts.php:21
+msgid "Adamas Posts"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:22
+msgid "Displays your posts."
+msgstr ""
+
+#: framework/widgets/widget-posts.php:121
+msgid "Number of post to show:"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:155
+msgid "No posts yet."
+msgstr ""
+
+#: framework/widgets/widget-twitter.php:21
+msgid "Adamas Twitter"
+msgstr ""
+
+#: framework/widgets/widget-twitter.php:22
+msgid "Displays your latest tweets."
+msgstr ""
+
+#: framework/widgets/widget-twitter.php:110
+msgid "Go to \"Theme Options > Third Party API > Twitter\" and set twitter API."
+msgstr ""
+
+#: framework/widgets/widget-twitter.php:119
+msgid "Twitter Username:"
+msgstr ""
+
+#: framework/widgets/widget-twitter.php:124
+msgid "Number of tweets:"
+msgstr ""
+
+#: partials/blog/blog-grid.php:26, partials/blog/blog-large.php:43, partials/blog/blog-masonry.php:26, partials/blog/blog-medium.php:31, partials/post/content.php:47
+msgid "By"
+msgstr ""
+
+#: partials/blog/blog-grid.php:26, partials/blog/blog-large.php:43, partials/blog/blog-masonry.php:26, partials/blog/blog-medium.php:31, partials/post/content.php:47
+msgid "on"
+msgstr ""
+
+#: partials/blog/blog-grid.php:46, partials/blog/blog-large.php:63, partials/blog/blog-masonry.php:46, partials/blog/blog-medium.php:51
+msgid "Continue Reading"
+msgstr ""
+
+#: partials/blog/blog-large.php:43, partials/blog/blog-medium.php:31
+msgid "in"
+msgstr ""
+
+#: partials/header/menu-side.php:20, partials/woocommerce/cart.php:20
+msgid "Close (%s)"
+msgstr ""
+
+#: partials/header/menu-side.php:32, partials/header/menu.php:61
+msgid "Go to Dashboard > Appearance > Menus to set up and assign a menu!"
+msgstr ""
+
+#: partials/post/content.php:71
+msgid "Pages:"
+msgstr ""
+
+#: partials/post/meta.php:49
+msgid " Posted in "
+msgstr ""
+
+#: partials/post/meta.php:63
+msgid " and tagged "
+msgstr ""
+
+#: partials/post/navigation.php:41
+msgid "&larr;&nbsp; Newer"
+msgstr ""
+
+#: partials/post/navigation.php:43
+msgid "Older &nbsp;&rarr;"
+msgstr ""
+
+#: partials/post/share.php:47
+msgid "Share on Facebook"
+msgstr ""
+
+#: partials/post/share.php:49
+msgid "Share on Twitter"
+msgstr ""
+
+#: partials/post/share.php:51
+msgid "Pin in Pinterest"
+msgstr ""
+
+#: partials/post/share.php:53
+msgid "Share on Google Plus"
+msgstr ""
+
+#: partials/post/share.php:55
+msgid "Share on VK"
+msgstr ""
+
+#: partials/post/share.php:57
+msgid "Share on Tumblr"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:53
+msgid "Edit Account"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:65
+msgid "Lost your password?"
+msgstr ""
+
+#: framework/classes/menu/custom_walker.php:88
+msgid "%s (Invalid)"
+msgstr ""
+
+#: framework/classes/menu/custom_walker.php:92
+msgid "%s (Pending)"
+msgstr ""
+
+#: framework/classes/menu/custom_walker.php:117
+msgid "Move up"
+msgstr ""
+
+#: framework/classes/menu/custom_walker.php:130
+msgid "Move down"
+msgstr ""
+
+#: framework/classes/menu/custom_walker.php:132, framework/classes/menu/custom_walker.php:134
+msgid "Edit Menu Item"
+msgstr ""
+
+#: framework/classes/menu/custom_walker.php:144
+msgid "URL"
+msgstr ""
+
+#: framework/classes/menu/custom_walker.php:152
+msgid "Navigation Label"
+msgstr ""
+
+#: framework/classes/menu/custom_walker.php:159
+msgid "Title Attribute"
+msgstr ""
+
+#: framework/classes/menu/custom_walker.php:166
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: framework/classes/menu/custom_walker.php:173
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: framework/classes/menu/custom_walker.php:180, framework/metabox/page/hero.inc.php:189, framework/metabox/page/hero.inc.php:207, framework/metabox/slider/slider-meta.php:276, framework/metabox/team/team-meta.php:105
+msgid "Description"
+msgstr ""
+
+#: framework/classes/menu/custom_walker.php:182
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: framework/classes/menu/custom_walker.php:195
+msgid "Mega Menu?"
+msgstr ""
+
+#: framework/classes/menu/custom_walker.php:206
+msgid "Mega Menu Title?"
+msgstr ""
+
+#: framework/classes/menu/custom_walker.php:213
+msgid "Original: %s"
+msgstr ""
+
+#: framework/classes/menu/custom_walker.php:226
+msgid "Remove"
+msgstr ""
+
+#: framework/metabox/format/audio-meta.php:35
+msgid "Audio Embedded Code"
+msgstr ""
+
+#: framework/metabox/format/audio-meta.php:37
+msgid "If you are using something other than self hosted audio such as Soundcloud, paste the embed code here."
+msgstr ""
+
+#: framework/metabox/format/audio-spec.php:27
+msgid "Audio Options"
+msgstr ""
+
+#: framework/metabox/format/gallery-meta.php:35
+msgid "Gallery"
+msgstr ""
+
+#: framework/metabox/format/gallery-meta.php:37
+msgid "Upload Image for the gallery."
+msgstr ""
+
+#: framework/metabox/format/gallery-spec.php:27
+msgid "Gallery Options"
+msgstr ""
+
+#: framework/metabox/format/video-meta.php:35
+msgid "Video URL"
+msgstr ""
+
+#: framework/metabox/format/video-meta.php:37
+msgid "Enter in a video URL that is compatible with WordPress's built-in oEmbed feature.<a href=\"%s\" target=\"_blank\">Learn More</a>"
+msgstr ""
+
+#: framework/metabox/format/video-spec.php:27
+msgid "Video Options"
+msgstr ""
+
+#: framework/metabox/clients/clients-meta.php:41, framework/metabox/team/team-meta.php:41, framework/metabox/testimonials/testimonials-meta.php:41
+msgid "Select images from media library."
+msgstr ""
+
+#: framework/metabox/clients/clients-meta.php:81
+msgid "Client URL"
+msgstr ""
+
+#: framework/metabox/clients/clients-meta.php:83
+msgid "Enter client URL."
+msgstr ""
+
+#: framework/metabox/clients/clients-meta.php:105
+msgid "Link Target"
+msgstr ""
+
+#: framework/metabox/clients/clients-meta.php:107
+msgid "Select where to open link."
+msgstr ""
+
+#: framework/metabox/clients/clients-spec.php:27
+msgid "Clients Options"
+msgstr ""
+
+#: framework/metabox/page/footer.inc.php:31
+msgid "Footer Widget"
+msgstr ""
+
+#: framework/metabox/page/footer.inc.php:33
+msgid "Enable the footer widgets on this page."
+msgstr ""
+
+#: framework/metabox/page/footer.inc.php:55, framework/metabox/page/footer.inc.php:91, framework/metabox/page/general.inc.php:189, framework/metabox/page/general.inc.php:231, framework/metabox/page/general.inc.php:269, framework/metabox/page/post.inc.php:57, framework/metabox/page/post.inc.php:95, framework/metabox/page/post.inc.php:133, framework/metabox/page/post.inc.php:171
+msgid "Leave \"Default\" for theme option selection"
+msgstr ""
+
+#: framework/metabox/page/footer.inc.php:67
+msgid "Footer Copyright"
+msgstr ""
+
+#: framework/metabox/page/footer.inc.php:69
+msgid "Enable the copyright widgets on this page."
+msgstr ""
+
+#: framework/metabox/page/general.inc.php:37
+msgid "Layout"
+msgstr ""
+
+#: framework/metabox/page/general.inc.php:39
+msgid "Select layout for this page."
+msgstr ""
+
+#: framework/metabox/page/general.inc.php:83
+msgid "Select Sidebar"
+msgstr ""
+
+#: framework/metabox/page/general.inc.php:85
+msgid "Select the sidebar you wish to display on this page."
+msgstr ""
+
+#: framework/metabox/page/general.inc.php:109
+msgid "Shows only if layout with sidebar is selected."
+msgstr ""
+
+#: framework/metabox/page/general.inc.php:125
+msgid "Transparent Header"
+msgstr ""
+
+#: framework/metabox/page/general.inc.php:127
+msgid "Select the transparent header style."
+msgstr ""
+
+#: framework/metabox/page/general.inc.php:141
+msgid "Transparent Light"
+msgstr ""
+
+#: framework/metabox/page/general.inc.php:143
+msgid "Transparent Light With Border"
+msgstr ""
+
+#: framework/metabox/page/general.inc.php:145
+msgid "Transparent Dark"
+msgstr ""
+
+#: framework/metabox/page/general.inc.php:147
+msgid "Transparent Dark With Border"
+msgstr ""
+
+#: framework/metabox/page/general.inc.php:167
+msgid "Enabling this option will show top bar area."
+msgstr ""
+
+#: framework/metabox/page/general.inc.php:209
+msgid "Enable / Disable the header box shadow."
+msgstr ""
+
+#: framework/metabox/page/general.inc.php:247
+msgid "Enable / Disable the header border."
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:35
+msgid "Select the header type."
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:49
+msgid "Basic"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:51, framework/metabox/page/hero.inc.php:111
+msgid "Adamas Slider"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:55, framework/metabox/page/hero.inc.php:75
+msgid "Revolution Slider"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:77
+msgid "Select the revolution slider."
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:113
+msgid "Select the adamas slider."
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:151
+msgid "Custom Page Title"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:153
+msgid "Insert custom text for the page header."
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:163, framework/metabox/slider/slider-meta.php:254
+msgid "Title Settings"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:191
+msgid "Enter the page header description."
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:201, framework/metabox/slider/slider-meta.php:273
+msgid "Description Settings"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:227, framework/metabox/slider/slider-meta.php:344
+msgid "Content Align"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:229, framework/metabox/slider/slider-meta.php:345
+msgid "Select content align."
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:265
+msgid "Header Layout"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:267
+msgid "Select the header layout."
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:313
+msgid "Header Max Width"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:315
+msgid "The maximum width of the header."
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:339
+msgid "The height of the header."
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:351, framework/metabox/slider/slider-meta.php:74
+msgid "Desktop"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:361, framework/metabox/slider/slider-meta.php:79
+msgid "Notebook"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:371, framework/metabox/slider/slider-meta.php:84
+msgid "Tablet"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:381, framework/metabox/slider/slider-meta.php:89
+msgid "Mobile"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:401, framework/metabox/slider/slider-meta.php:178
+msgid "Background Image"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:403, framework/metabox/slider/slider-meta.php:179, framework/metabox/slider/slider-meta.php:311
+msgid "Upload image for the gallery."
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:433, framework/metabox/slider/slider-meta.php:196
+msgid "Background Image Settings"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:459, framework/metabox/slider/slider-meta.php:207
+msgid "YouTube URL"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:461, framework/metabox/slider/slider-meta.php:208
+msgid "Enter YouTube URL."
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:483
+msgid "Background Color:"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:507
+msgid "Overlay Color:"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:509, framework/metabox/slider/slider-meta.php:232
+msgid "Select header overlay color."
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:531, framework/metabox/slider/slider-meta.php:403
+msgid "Parallax"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:533, framework/metabox/slider/slider-meta.php:404
+msgid "Choose a scrolling effect for the background."
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:569, framework/metabox/slider/slider-meta.php:422
+msgid "Fade Content on Scroll"
+msgstr ""
+
+#: framework/metabox/page/hero.inc.php:571, framework/metabox/slider/slider-meta.php:423
+msgid "Choose a scrolling effect for the text."
+msgstr ""
+
+#: framework/metabox/page/page-spec.php:14
+msgid "Page Options"
+msgstr ""
+
+#: framework/metabox/page/post.inc.php:35
+msgid "Enable / Disable the featured image on this post."
+msgstr ""
+
+#: framework/metabox/page/post.inc.php:73
+msgid "Enable / Disable the metadata on this post."
+msgstr ""
+
+#: framework/metabox/page/post.inc.php:109
+msgid "Social Share"
+msgstr ""
+
+#: framework/metabox/page/post.inc.php:111
+msgid "Enable / Disable the social sharing on this post."
+msgstr ""
+
+#: framework/metabox/page/post.inc.php:149
+msgid "Enable / Disable the post navigation on this post."
+msgstr ""
+
+#: framework/metabox/portfolio/portfolio-meta.php:39, framework/metabox/slider/slider-meta.php:231
+msgid "Overlay Color"
+msgstr ""
+
+#: framework/metabox/portfolio/portfolio-meta.php:41
+msgid "Select custom overlay color in archive layout masonry."
+msgstr ""
+
+#: framework/metabox/portfolio/portfolio-meta.php:63
+msgid "Masonry Image Size"
+msgstr ""
+
+#: framework/metabox/portfolio/portfolio-meta.php:65
+msgid "Select featured image size in archive layout masonry."
+msgstr ""
+
+#: framework/metabox/portfolio/portfolio-meta.php:77
+msgid "Regular - 1X1"
+msgstr ""
+
+#: framework/metabox/portfolio/portfolio-meta.php:79
+msgid "Wide - 2X1"
+msgstr ""
+
+#: framework/metabox/portfolio/portfolio-meta.php:81
+msgid "Tall - 1X2"
+msgstr ""
+
+#: framework/metabox/portfolio/portfolio-meta.php:83
+msgid "Wide Tall - 2X2"
+msgstr ""
+
+#: framework/metabox/portfolio/portfolio-spec.php:27
+msgid "Portfolio Options"
+msgstr ""
+
+#: framework/metabox/includes/animation.php:25
+msgid "Appearing Animation..."
+msgstr ""
+
+#: framework/metabox/includes/arrows_settings.php:27, framework/metabox/slider/slider-meta.php:138
+msgid "Arrows Settings"
+msgstr ""
+
+#: framework/metabox/includes/arrows_settings.php:29, framework/metabox/includes/background_settings.php:29, framework/metabox/includes/button_settings.php:29, framework/metabox/includes/dots_settings.php:29, framework/metabox/includes/image_settings.php:29, framework/metabox/includes/text_settings.php:29
+msgid "Save Settings"
+msgstr ""
+
+#: framework/metabox/includes/arrows_settings.php:45
+msgid "Show Arrows:"
+msgstr ""
+
+#: framework/metabox/includes/arrows_settings.php:57, framework/metabox/includes/dots_settings.php:57
+msgid "Show on Hover"
+msgstr ""
+
+#: framework/metabox/includes/arrows_settings.php:61, framework/metabox/includes/dots_settings.php:61
+msgid "Hide"
+msgstr ""
+
+#: framework/metabox/includes/arrows_settings.php:79
+msgid "Arrows Style:"
+msgstr ""
+
+#: framework/metabox/includes/arrows_settings.php:91, framework/metabox/includes/button_settings.php:91
+msgid "Outline"
+msgstr ""
+
+#: framework/metabox/includes/arrows_settings.php:93, framework/metabox/includes/button_settings.php:89
+msgid "Background"
+msgstr ""
+
+#: framework/metabox/includes/arrows_settings.php:111
+msgid "Arrows Shape:"
+msgstr ""
+
+#: framework/metabox/includes/arrows_settings.php:123
+msgid "Round"
+msgstr ""
+
+#: framework/metabox/includes/arrows_settings.php:125
+msgid "Square"
+msgstr ""
+
+#: framework/metabox/includes/arrows_settings.php:143, framework/metabox/slider/slider-meta.php:363
+msgid "Arrows Color"
+msgstr ""
+
+#: framework/metabox/includes/arrows_settings.php:155, framework/metabox/includes/button_settings.php:159, framework/metabox/includes/dots_settings.php:157, framework/metabox/slider/slider-meta.php:371, framework/metabox/slider/slider-meta.php:391
+msgid "Light"
+msgstr ""
+
+#: framework/metabox/includes/arrows_settings.php:157, framework/metabox/includes/button_settings.php:161, framework/metabox/includes/dots_settings.php:159, framework/metabox/slider/slider-meta.php:372, framework/metabox/slider/slider-meta.php:392
+msgid "Dark"
+msgstr ""
+
+#: framework/metabox/includes/arrows_settings.php:159, framework/metabox/includes/dots_settings.php:161, framework/metabox/slider/slider-meta.php:373, framework/metabox/slider/slider-meta.php:393
+msgid "Gray"
+msgstr ""
+
+#: framework/metabox/includes/background_settings.php:27
+msgid "Background Settings"
+msgstr ""
+
+#: framework/metabox/includes/background_settings.php:45
+msgid "Background Repeat:"
+msgstr ""
+
+#: framework/metabox/includes/background_settings.php:81
+msgid "Background Size:"
+msgstr ""
+
+#: framework/metabox/includes/background_settings.php:117
+msgid "Background Attachment:"
+msgstr ""
+
+#: framework/metabox/includes/background_settings.php:153
+msgid "Background Position:"
+msgstr ""
+
+#: framework/metabox/includes/background_settings.php:189
+msgid "Pattern Animation:"
+msgstr ""
+
+#: framework/metabox/includes/background_settings.php:201
+msgid "Select Animation..."
+msgstr ""
+
+#: framework/metabox/includes/button_settings.php:27, framework/metabox/slider/slider-meta.php:293
+msgid "Button Settings"
+msgstr ""
+
+#: framework/metabox/includes/button_settings.php:45
+msgid "Open Link In:"
+msgstr ""
+
+#: framework/metabox/includes/button_settings.php:77
+msgid "Style:"
+msgstr ""
+
+#: framework/metabox/includes/button_settings.php:109
+msgid "Size:"
+msgstr ""
+
+#: framework/metabox/includes/button_settings.php:121
+msgid "Defaul"
+msgstr ""
+
+#: framework/metabox/includes/button_settings.php:123
+msgid "Small"
+msgstr ""
+
+#: framework/metabox/includes/button_settings.php:125
+msgid "Medium"
+msgstr ""
+
+#: framework/metabox/includes/button_settings.php:127
+msgid "Large"
+msgstr ""
+
+#: framework/metabox/includes/button_settings.php:145, framework/metabox/includes/text_settings.php:45
+msgid "Color:"
+msgstr ""
+
+#: framework/metabox/includes/button_settings.php:179, framework/metabox/includes/image_settings.php:125, framework/metabox/includes/text_settings.php:285
+msgid "Animation:"
+msgstr ""
+
+#: framework/metabox/includes/button_settings.php:201, framework/metabox/includes/image_settings.php:147, framework/metabox/includes/text_settings.php:307
+msgid "Animation Delay:"
+msgstr ""
+
+#: framework/metabox/includes/button_settings.php:211, framework/metabox/includes/button_settings.php:235, framework/metabox/includes/image_settings.php:157, framework/metabox/includes/image_settings.php:181, framework/metabox/includes/text_settings.php:317, framework/metabox/includes/text_settings.php:341
+msgid "Set the delay in milliseconds. For example write 300 = 0.3 seconds."
+msgstr ""
+
+#: framework/metabox/includes/button_settings.php:225, framework/metabox/includes/image_settings.php:171, framework/metabox/includes/text_settings.php:331
+msgid "Animation Duration:"
+msgstr ""
+
+#: framework/metabox/includes/dots_settings.php:27, framework/metabox/slider/slider-meta.php:150
+msgid "Dots Settings"
+msgstr ""
+
+#: framework/metabox/includes/dots_settings.php:45
+msgid "Show Dots:"
+msgstr ""
+
+#: framework/metabox/includes/dots_settings.php:79
+msgid "Dots Position:"
+msgstr ""
+
+#: framework/metabox/includes/dots_settings.php:91
+msgid "Inside"
+msgstr ""
+
+#: framework/metabox/includes/dots_settings.php:93
+msgid "Outside"
+msgstr ""
+
+#: framework/metabox/includes/dots_settings.php:111
+msgid "Dots Align:"
+msgstr ""
+
+#: framework/metabox/includes/dots_settings.php:145, framework/metabox/slider/slider-meta.php:383
+msgid "Dots Color"
+msgstr ""
+
+#: framework/metabox/includes/image_settings.php:27, framework/metabox/slider/slider-meta.php:328
+msgid "Image Settings"
+msgstr ""
+
+#: framework/metabox/includes/image_settings.php:45
+msgid "Location"
+msgstr ""
+
+#: framework/metabox/includes/image_settings.php:57
+msgid "Before Title"
+msgstr ""
+
+#: framework/metabox/includes/image_settings.php:59
+msgid "After Title"
+msgstr ""
+
+#: framework/metabox/includes/image_settings.php:61
+msgid "After Description"
+msgstr ""
+
+#: framework/metabox/includes/image_settings.php:63
+msgid "After Button"
+msgstr ""
+
+#: framework/metabox/includes/image_settings.php:81, framework/metabox/includes/text_settings.php:241
+msgid "Margin Top:"
+msgstr ""
+
+#: framework/metabox/includes/image_settings.php:103, framework/metabox/includes/text_settings.php:263
+msgid "Margin Bottom:"
+msgstr ""
+
+#: framework/metabox/includes/text_settings.php:27
+msgid "Settings"
+msgstr ""
+
+#: framework/metabox/includes/text_settings.php:67
+msgid "Font Family:"
+msgstr ""
+
+#: framework/metabox/includes/text_settings.php:79
+msgid "Select Font Family..."
+msgstr ""
+
+#: framework/metabox/includes/text_settings.php:103
+msgid "Font Weight:"
+msgstr ""
+
+#: framework/metabox/includes/text_settings.php:115
+msgid "Select Font Weight..."
+msgstr ""
+
+#: framework/metabox/includes/text_settings.php:139
+msgid "Font Style:"
+msgstr ""
+
+#: framework/metabox/includes/text_settings.php:151
+msgid "Select Font Style..."
+msgstr ""
+
+#: framework/metabox/includes/text_settings.php:175
+msgid "Font Size:"
+msgstr ""
+
+#: framework/metabox/includes/text_settings.php:197
+msgid "Line Height:"
+msgstr ""
+
+#: framework/metabox/includes/text_settings.php:219
+msgid "Letter Spacing:"
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:20
+msgid "Slider Shortcode"
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:21
+msgid "Place the shortcode where you want to show the slider."
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:31
+msgid "Slider Layout"
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:32
+msgid "Select the slider layout."
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:55
+msgid "Slider Max Width"
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:56
+msgid "The maximum width of the Slider."
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:67
+msgid "Slider Height"
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:68
+msgid "The height of the slider."
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:99
+msgid "Autoplay"
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:100
+msgid "Auto rotate slides each X seconds."
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:117
+msgid "Inifnity Loop"
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:118
+msgid "Duplicate last and first items to get loop illusion."
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:134
+msgid "Arrows"
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:135
+msgid "Arrows settings."
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:146
+msgid "Dots"
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:147
+msgid "Dots settings."
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:248
+msgid "Slide Title"
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:249
+msgid "Enter the slide title."
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:267
+msgid "Slide Description"
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:268
+msgid "Enter the slide description."
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:286
+msgid "Slide Button"
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:287
+msgid "Config slide button."
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:290
+msgid "Button Text:"
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:301
+msgid "Button URL:"
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:310
+msgid "Slide Image"
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:364
+msgid "Select arrows color."
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:384
+msgid "Select dots color."
+msgstr ""
+
+#: framework/metabox/slider/slider-meta.php:443
+msgid "Add New Slide"
+msgstr ""
+
+#: framework/metabox/slider/slider-spec.php:27
+msgid "Slider Options"
+msgstr ""
+
+#: framework/metabox/team/team-meta.php:39
+msgid "Member Image"
+msgstr ""
+
+#: framework/metabox/team/team-meta.php:81
+msgid "Role"
+msgstr ""
+
+#: framework/metabox/team/team-meta.php:83
+msgid "Role of the member."
+msgstr ""
+
+#: framework/metabox/team/team-meta.php:107
+msgid "Description of the member."
+msgstr ""
+
+#: framework/metabox/team/team-meta.php:129
+msgid "Facebook URL"
+msgstr ""
+
+#: framework/metabox/team/team-meta.php:131
+msgid "Facebook URL, or leave it blank."
+msgstr ""
+
+#: framework/metabox/team/team-meta.php:153
+msgid "Twitter URL"
+msgstr ""
+
+#: framework/metabox/team/team-meta.php:155
+msgid "Twitter URL, or leave it blank."
+msgstr ""
+
+#: framework/metabox/team/team-meta.php:177
+msgid "Google URL"
+msgstr ""
+
+#: framework/metabox/team/team-meta.php:179
+msgid "Google URL, or leave it blank."
+msgstr ""
+
+#: framework/metabox/team/team-meta.php:201
+msgid "LinkedIn URL"
+msgstr ""
+
+#: framework/metabox/team/team-meta.php:203
+msgid "LinkedIn URL, or leave it blank."
+msgstr ""
+
+#: framework/metabox/team/team-meta.php:225
+msgid "Instagram URL"
+msgstr ""
+
+#: framework/metabox/team/team-meta.php:227
+msgid "Instagram URL, or leave it blank."
+msgstr ""
+
+#: framework/metabox/team/team-meta.php:249
+msgid "Email"
+msgstr ""
+
+#: framework/metabox/team/team-meta.php:251
+msgid "Mail URL, or leave it blank."
+msgstr ""
+
+#: framework/metabox/team/team-spec.php:27
+msgid "Team Options"
+msgstr ""
+
+#: framework/metabox/testimonials/testimonials-meta.php:39
+msgid "Photo"
+msgstr ""
+
+#: framework/metabox/testimonials/testimonials-meta.php:81
+msgid "Profession"
+msgstr ""
+
+#: framework/metabox/testimonials/testimonials-meta.php:83
+msgid "Eg : CEO, Web Designer"
+msgstr ""
+
+#: framework/metabox/testimonials/testimonials-spec.php:27
+msgid "Testimonials Options"
+msgstr ""

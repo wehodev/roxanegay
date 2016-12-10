@@ -1,0 +1,52 @@
+/** Portfolio: General */
+.wpus-portfolio {
+
+	.wpus-title {
+
+		h3 {
+			margin: 0;
+			font-size: $h5_font_size;
+			transition: color .15s;
+		}
+
+		p {
+			margin: 0;
+			font-size: $medium_font_size;
+		}
+	}
+
+	.title-overlay {
+		padding: 36px;
+
+		h3 {
+			color: #fff;
+		}
+
+		p {
+			color: rgba( #fff, .8 );
+		}
+
+	}
+
+	.title-under {
+		margin-top: 15px;
+
+		p {
+			color: $third_color;
+		}
+
+	}
+
+	a:hover .title-under h3 {
+		color: $accent_color;
+	}
+	
+	.wpus-overlay[data-type="background"] {
+		background-color: rgba( #000, .9 );
+	}
+}
+
+.wpus-portfolio-thumb {
+    position: relative;
+    overflow: hidden;
+}

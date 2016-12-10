@@ -1,0 +1,118 @@
+/* Single Post: General */
+.single-post {
+
+    .site-main article {
+        padding-bottom: 60px;
+    }
+
+    .entry-media {
+        margin-bottom: 30px;
+    }
+
+    .entry-title {
+        margin-bottom: 0;
+    }
+
+    .entry-content {
+        margin-top: 20px;
+        padding-bottom: 30px;
+    }
+
+}
+
+/* Single Post: Navigation */
+.post-navigation {
+
+    padding: 50px 0 50px;
+    margin-top: -60px;
+    overflow: hidden;
+    border-top: 1px solid $border_color;
+
+    a {
+
+        display: inline-block;
+        color: $first_color;
+        font-size: $h6_font_size;
+
+        &:hover {
+            color: $accent_color;
+        }
+
+    }
+
+    [rel="next"] {
+        float: left;
+    }
+
+    [rel="prev"] {
+        float: right;
+        text-align: right;
+    }
+
+    span {
+        display: block;
+        color: $third_color;
+        font-size: $body_font_size;
+    }
+
+}
+
+/* Single Post: Page Links */
+.page-links {
+
+    margin: 10px 0 30px;
+
+    span,
+    a {
+        padding: 0 2px;
+    }
+
+}
+
+/** Single Post: Entry Footer */
+.entry-footer {
+
+    padding-bottom: 30px;
+
+    .entry-meta {
+        @media only screen and (max-width: 768px) {
+            padding-right: 40px;
+            display: inline;
+        }
+    }
+
+    .entry-share {
+        margin-bottom: 15px;
+        @media only screen and (min-width: 768px) {
+           float: right;
+           margin: 0;
+        }
+    }
+
+}
+
+/** Single Post: Share */
+.entry-share {
+
+    a {
+
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        margin: 0 2px;
+        border-radius: 33px;
+        background: $background_color;
+        color: $third_color;
+        font-size: $medium_font_size;
+        line-height: 30px;
+        text-align: center;
+        transition: all .15s;
+
+        &:hover {
+            background-color: $accent_color;
+            color: #fff;
+        }
+
+    }
+
+}

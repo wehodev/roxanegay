@@ -1,0 +1,883 @@
+/*
+ Theme Name:     An Untamed State
+ Description:    Twenty Thirteen Child Theme
+ Author:         Deborah Kim
+ Author URI:     http://www.deborahkim.net/
+ Template:       twentythirteen
+ Version:        1.0.0
+*/
+
+@import url("../twentythirteen/style.css");
+
+/* ---------------------------------------------------------------- */
+
+html, body { height: 100%; }
+
+html {
+	font-family: "Libre Baskerville", Georgia, serif;
+}
+
+body {
+	font-size: 16px;
+	font-size: 1em;
+	line-height: 1.6;
+}
+
+button, input, select, textarea {
+	font-family: "Libre Baskerville";
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Source Sans Pro";
+	font-weight: 300;
+}
+
+h1.book-header {
+	font-family: "Libre Baskerville";
+	font-size: 2.6em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 1.8em;
+	margin: 30px 0;
+}
+
+p { margin: 0 0 28px; }
+
+.center { text-align: center; }
+
+a, a:visited, .entry-content a, .entry-meta a, .comment-content a, .comment-form a, .navigation a, .comment-author .fn, .comment-author .fn a, a.comment-reply-link, .comment-author .url a, .comment-reply-login a {
+	color: #ac0404;
+	text-decoration: none;
+}
+
+a:active, a:hover, .entry-content a:hover, .entry-title a:hover, .entry-meta a:hover, .comment-content a:hover, .comment-form a:hover, .navigation a:hover, .comment-reply-link a:hover, .comment-author .fn a:hover, .comment-author .url a:hover, .comment-reply-login a:hover {
+	color: #AC8F43;
+	text-decoration: none;
+}
+
+.comment-content, textarea { font-family: "Source Sans Pro", sans-serif; }
+
+button, input[type="submit"], input[type="button"], input[type="reset"]
+{	background: #B29547;
+	background: -webkit-linear-gradient(top, #B29547 0%, #6E501E 100%);
+	background: linear-gradient(to bottom, #B29547 0%, #6E501E 100%);
+	border-bottom: 3px solid #6E501E; }
+
+button:hover, button:focus, button:active, input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:active, input[type="button"]:active, input[type="reset"]:active
+{ 	background: #B29547;
+	background: -webkit-linear-gradient(top, #B29547 0%, #B29547 100%);
+	background: linear-gradient(to bottom, #B29547 0%, #B29547 100%);
+}
+
+button:active, input[type="submit"]:active, input[type="button"]:active, input[type="reset"]:active {
+	background: #6E501E;
+	background: -webkit-linear-gradient(top, #6E501E 0%, #B29547 100%);
+	background: linear-gradient(to bottom, #6E501E 0%, #B29547 100%);
+	border-top: 3px solid #6E501E;
+}
+
+h2.piece-title {
+	font-size:3em;
+	margin-bottom: 5px;
+}
+
+div.byline {
+	font-size: 1.7em;
+	font-style: italic;
+	margin-bottom: 50px;
+}
+
+ul { list-style-type: disc; }
+
+/* ---------------------------------------------------------------- */
+
+/* Front Page Template */
+
+.site { border: 0;  }
+
+#page.full-background {
+	background: transparent;
+}
+
+.page-template-front-php {
+	background-image:url(images/background.jpg);
+	background-color: #614422;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position-y: 0;
+}
+
+#front-cover {
+	position: relative;
+	display: block;
+	width: 250px;
+	float: left;
+	margin-top: 20px;
+}
+
+#front-cover img {
+	box-shadow: 0 0 20px 5px rgba(0,0,0,0.5);
+}
+
+.entry-content.online-page.front-content {
+	max-width: 750px;
+}
+
+#blurb-wrapper {
+	position: relative;
+	display: inline-block;
+	width: 500px;
+}
+
+ul#blurbs {
+	list-style-type: none;
+	margin-left: 50px;
+}
+
+.quote {
+	font-family: "Libre Baskerville";
+	font-size: 1.6em;	
+	line-height: 1.4em;
+	color: #fff;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	text-align: center;
+}
+
+.author {
+	color: #fff;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1em;
+	letter-spacing: 0.2em;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+#front-header {
+	display: block;
+	min-width: 771px;
+	max-width: 771px;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+#order-wrapper {
+	position: relative;
+	display: inline-block;
+	width: 320px;
+	margin-left: 170px;
+	margin-top: 20px;
+}
+
+#order-wrapper .order-left {
+	margin-top: 12px;
+	float: left;
+	width: 105px;
+	margin-right: 25px;
+}
+
+#order-wrapper .order-right {
+	margin-top: 74px;
+	width: 105px;
+	float: left;
+}
+	
+#order-wrapper img { 
+	display: block;
+	margin: 0 auto;
+}
+
+#order-wrapper .order-right img {
+	margin-bottom: 17px;
+}
+
+.site-info { display: none; }
+
+/* ---------------------------------------------------------------- */
+
+/* Writing */
+
+.writing em.note {
+	font-family: 'Source Sans Pro', sans serif;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	font-style: normal;
+	letter-spacing: 0.1em;
+}
+
+.writing li em {
+	font-family: 'Source Sans Pro', sans serif;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	font-style: normal;
+	letter-spacing: 0.1em; }
+	
+.writing ul ul {
+	list-style-type: none;
+	padding-bottom: 5px;
+}
+
+.writing ul ul li em {
+	font-size: 0.9em;
+}
+/* ---------------------------------------------------------------- */
+
+/* Books */
+
+.book-wrapper {
+	max-width: 700px;
+}
+
+.book-wrapper h2 {
+	font-family: "Libre Baskerville";
+	font-size: 1.8em;
+	font-style: italic;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+.book-column-left {
+	float: left;
+	max-width: 330px;
+}
+
+.book-column-right {
+	float: left;
+	max-width: 370px;
+	margin-left: 50px;
+}
+
+.book-summary {
+	font-family: "Source Sans Pro";
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-size: 1.2em;
+}
+
+.book-quote {
+	font-family: "Libre Baskerville";
+	line-height: 1.6em;
+	color: #000;
+}
+
+.book-quote-author {
+	color: #ac0404;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	text-align: center;
+	line-height: 1.5em;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.entry-content img.cover {
+	margin-top: 5px;
+	margin-bottom: 20px; 
+	box-shadow: 0 0 15px 1px rgba(0,0,0,0.5); }
+	
+.entry-content img.bad-feminist {
+	margin-top: 5px;
+	margin-bottom: 20px; 
+	box-shadow: 0 0 15px 1px rgba(0,0,0,0.2);
+}
+
+.buy-box {
+	background-color: #E7E0C8;
+	text-align: center;
+	padding: 20px 0 20px 0;
+	line-height: 2em;
+}
+
+.buy-box a {
+	text-transform: uppercase;
+}
+
+.book-single-column {
+	clear: both;
+	padding-top: 40px;
+}
+
+.book-reviews {
+	padding-top: 30px;
+	border-top: 1px solid rgb(233, 233, 233);
+}
+
+.book-reviews a {
+	font-family: 'Source Sans Pro', sans serif;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-style: normal;
+	letter-spacing: 0.1em;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* Appearances */
+
+.appearances h2 {
+	font-size: 3em;
+	text-align: center;
+	padding-top: 30px;
+	border-top: 1px solid rgb(233, 233, 233);
+}
+
+.appearances .date {
+	font-family: "Source Sans Pro";
+	text-transform: uppercase;
+	font-size: 1.5em;
+	letter-spacing: 0.1em;
+}
+
+.indent {
+	padding-left: 20px;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* Header */
+
+.wrap-menu {
+	clear: none;
+	float: left;
+	padding-top: 32px;
+	max-width: 615px;
+}
+
+.main-navigation {
+	margin: 0 auto;
+	clear: none;
+	padding-top: 10px;
+	max-width: 1000px;
+	min-height: 45px;
+	padding-left: 95px;
+}
+
+#main-header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.site {max-width: 100%; }
+
+.site-header { width: 100%; }
+
+.navbar {
+	background-image:url(images/header_menu.jpg);
+	background-color: #614422;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position-y: 0;
+	margin: 0 auto;
+	max-width: 100%;
+	padding: 50px 0 0 0px;
+	height: 230px;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* Navigation */
+
+ul.nav-menu,
+div.nav-menu > ul {
+	padding: 0;
+}
+
+ul.nav-menu ul a,
+.nav-menu ul ul a {
+	color: #fff;
+	margin: 0;
+	width: auto;
+}
+
+.nav-menu li {
+	float: left;
+}
+
+.nav-menu li a {
+	font-family: "Libre Baskerville";
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+	font-size: 1em;
+	color: #fff;
+	padding: 13px 28px;
+}
+
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
+	/*color: #305daa;*/
+	color: #fff;
+	font-style: normal;
+}
+
+.nav-menu li:hover > a,
+.nav-menu li a:hover {
+	color: #81000B;
+	background-color: transparent;
+}
+
+.social-header, .social-header-front {
+	float: left;
+	padding-left: 18px;
+	margin-top: 5px;
+}
+
+.twitter {
+	width: 32px;
+	height: 32px;
+	display: block;
+	float: left;
+	background: transparent url('images/logo_twitter.png') center top no-repeat;
+}
+
+.twitter:hover {
+	background-image: url('images/logo_twitter_hover.png');
+}
+
+.facebook {
+	width: 32px;
+	height: 32px;
+	margin-left: 16px;
+	display: block;
+	float: left;
+	background: transparent url('images/logo_facebook.png') center top no-repeat;	
+}
+
+.facebook:hover {
+	background-image: url('images/logo_facebook_hover.png');
+}
+
+.indiebound {
+	width: 105px;
+	height: 109px;
+	display: block;
+	float: left;
+	background: transparent url('images/logo_indiebound.png') center top no-repeat;
+}
+
+.indiebound:hover {
+	background-image: url('images/logo_indiebound_hover.png');
+}
+
+.barnes-noble {
+	width: 105px;
+	height: 16px;
+	display: block;
+	float: left;
+	background: transparent url('images/logo_bn.png') center top no-repeat;
+}
+
+.barnes-noble:hover {
+	background-image: url('images/logo_bn_hover.png');
+}
+
+#main .barnes-noble {
+	margin-bottom: 20px;
+}
+
+.amazon {
+	width: 105px;
+	height: 21px;
+	display: block;
+	float: left;
+	background: transparent url('images/logo_amazon.png') center top no-repeat;
+}
+
+.amazon:hover {
+	background-image: url('images/logo_amazon_hover.png');
+}
+
+/* ---------------------------------------------------------------- */
+
+/* Blog and Pages */
+
+#main { clear: both; }
+
+.hentry {
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+.entry-content {
+	padding-bottom: 40px;
+	border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.home .entry-content {
+	padding-bottom: 0;
+	border: none;
+}
+
+.entry-content.online-page {
+	max-width: 600px;
+}
+
+.entry-content p {
+	/*font-size: 1.1em;*/
+	line-height: 1.625em;
+}
+
+
+.entry-header, .entry-meta {
+	max-width: 700px;
+	margin-bottom: 40px;
+}
+
+span.author.vcard { display: none; }
+
+.entry-meta { margin-top: 10px; }
+
+.format-standard footer.entry-meta, footer.entry-meta { margin-top: 30px; }
+
+.entry-title {
+	margin: 0;
+	font-weight: 300;
+}
+
+.page .entry-title {
+	text-align: center;
+}
+
+.post .entry-title a {
+	color: #000;
+}
+
+.post .entry-title a:hover {
+	color: #AC8F43;
+}
+
+.entry-content { max-width: 700px; }
+
+.featured-post:before {
+	content: none;
+	margin-right: 0;
+}
+
+.entry-meta .date a:before, .entry-meta .author a:before, .categories-links a:first-child:before, .comments-link a:before, .categories-links a:first-child:before, .comment-reply-link:before {
+	content: none;
+}
+
+.entry-meta a {
+	font-family: "Libre Baskerville";
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-size: 1em;
+}
+
+.tags-links a:first-child:before {
+	content: none;
+	position: relative;
+	top: -1px;
+}
+
+.edit-link a:before {
+	content: none;
+	position: relative;
+	top: -1px;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* Comments */
+
+.comment-respond {
+	background-color: #E7E0C8;
+}
+
+.comment-list > li:after, .comment-list .children > li:before { background: none; border-top: 1px solid rgb(233, 233, 233); }
+
+.entry-content img, .post .entry-content img, .post .entry-summary img, .post .comment-content img[height], .post img[class*="align"], .post img[class*="wp-image-"], .post img[class*="attachment-"] {
+	margin-top: 40px;
+	margin-bottom: 50px; 
+	box-shadow: 0 0 15px 1px rgba(0,0,0,0.5); }
+
+
+.comment-author .fn a, a.comment-reply-link, .comment-metadata, .comment-meta { 	text-transform: uppercase;
+	letter-spacing: 0.2em; }
+
+.no-comments { display: none; }
+
+/* ---------------------------------------------------------------- */
+
+/* Category Page */
+
+.archive-header { background-color: #9E7C3D; color: #fff; }
+
+/* ---------------------------------------------------------------- */
+
+/* Error Page */
+
+.error404 .page-wrapper { background-color: #9E7C3D; color: #fff; }
+.error404 .page-title:before { color: #9E7C3D; }
+.error404 input { border: none; }
+
+/* ---------------------------------------------------------------- */
+
+/* Paging Navigation */
+
+.paging-navigation .nav-links { max-width: 700px; }
+
+.paging-navigation .nav-next .meta-nav { padding: 0; width: 30px; margin-left: 30px; }
+.paging-navigation .nav-previous .meta-nav { padding: 0; width: 20px; margin-right: 40px; }
+
+.paging-navigation .nav-previous { padding: 13px 0; }
+
+.paging-navigation .meta-nav { border-radius: 0; background-color: #fff; color: #ac0404; }
+
+.navigation a:hover, .comment-meta a:hover { color: #AC8F43; }
+
+.paging-navigation a:hover .meta-nav { background-color: #E7E0C8; color: #AC8F43; }
+
+.post-navigation {
+	padding: 20px 0;
+	padding-top: 30px;
+}
+
+/* paging navigation on blog */
+
+.paging-navigation {background-color: #E7E0C8; }
+.paging-navigation .nav-previous .meta-nav, .paging-navigation .nav-next .meta-nav { background-color: #E7E0C8; }
+
+/* ---------------------------------------------------------------- */
+
+/* NextGen Gallery */
+/* http://www.roxanegay.com/wp-admin/plugin-editor.php?file=nextgen-gallery/products/photocrati_nextgen/modules/nextgen_basic_gallery/static/thumbnails/nextgen_basic_thumbnails.css&a=te&scrollto=489 */
+
+.ngg-gallery-thumbnail img {
+	background-color: transparent;
+	border: none;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0;
+	position: relative;
+	box-shadow: 0 0 15px 1px rgba(0,0,0,0.5);
+}
+
+.ngg-gallery-thumbnail span {
+	font-size: 90%;
+	padding-left: 5px;
+	display: block;
+	margin-bottom: 30px;
+	padding-top: 10px;
+}
+
+
+/* ---------------------------------------------------------------- */
+
+/* Responsive */
+
+@media (max-width: 1079px) {
+
+.main-navigation {
+	max-width: 810px;
+	padding-left: 0; }
+
+.navbar {
+	background-image:url(images/header_menu_social.jpg);
+	height: 280px;
+}
+
+.social-header-front {
+	width: 80px;
+	clear: both;
+	float: none;
+	padding: 0;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+}
+
+@media (max-width: 820px) {
+	#front-cover {
+		width: 35%;
+		margin: 0 20px;
+		text-align: center;
+	}
+	#blurb-wrapper {
+		width: 55%;
+		margin: 0 auto;
+	}
+	ul#blurbs {
+		margin-left: 0;
+		padding-left: 0;
+		margin: 0 auto;
+		width: 350px;
+	}
+	#order-wrapper {
+		width: 55%;
+		margin-left: 0;
+		margin: 0 auto;
+		margin-top: 10px;
+		text-align: center;
+	}
+	#order-wrapper .order-left, #order-wrapper .order-right {
+		float: none;
+		display: inline-block;
+	}
+	#order-wrapper .order-right {
+		height: 47px;
+	}
+}
+
+@media (max-width: 800px) {
+
+	.navbar {
+		background-image:url(images/header_menu_800.jpg);
+		height: 500px;
+	}
+	
+	#main-header img {
+		width: 100%;
+		max-width: 771px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	.page-template-front-php {
+		background-image:url(images/background_tablet.jpg);
+	}
+	
+	#blurb-wrapper {
+		height: 250px;
+	}
+	
+	#front-header {
+		min-width: 100%;
+		max-width: 100%;
+		padding: 0 20px;
+	}
+	
+	#front-header img {
+		min-width: 100%;
+		max-width: 100%;
+	}
+
+	.main-navigation {
+		padding-right: 15px;
+	}
+
+
+	.nav-menu li {
+		width: 100%;
+		float: left;
+		}
+		
+	.nav-menu li a {
+		text-align: center;
+		font-size: 1.3em;
+		padding-bottom: 15px;
+		padding-top: 15px;
+		}
+		
+	.hentry {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media (max-width: 739px) {
+
+	.book-column-left {
+		float: none;
+		clear: both;
+		max-width: 280px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.book-column-right {
+		float: none;
+		clear: both;
+		margin-left: 0px;
+		max-width: 100%;
+		margin-top: 50px;
+	}
+	
+	.book-single-column {
+		padding-top: 10px;
+	}
+
+}
+
+@media (max-width: 643px) {
+	#front-cover {
+	}
+	#blurb-wrapper {
+		height: 315px;
+	}
+	ul#blurbs {
+		width: 300px;
+	}
+	
+	.menu-toggle {
+		display: none;
+	}
+	
+	ul.nav-menu,
+	div.nav-menu > ul {
+		display: block;
+	}
+	#order-wrapper {
+		width: 100%;
+	}
+	#front-header {
+		margin-top: 60px;
+	}
+	
+	.entry-title, .format-chat .entry-title, .format-image .entry-title, .format-gallery .entry-title, .format-video .entry-title
+	h1 { font-size: 40px; }
+	
+	.hentry {
+		padding: 40px 0;
+	}	
+}
+
+
+@media (max-width: 531px) {
+	#post-22 {
+		padding-top: 40px;
+		}
+	#front-cover {
+		width: 100%;
+		margin: 0 auto;
+	}
+	#blurb-wrapper {
+		margin-top: 50px;
+		width: 100%;
+		height: 250px;
+		}
+	ul#blurbs {
+		width: 100%;
+	}
+}
+
+@media (max-width: 349px) {
+	.navbar {
+		background-image:url(images/header_menu_350.jpg);
+		height: 460px;
+	}
+	.page-template-front-php {
+		background-image:url(images/background_mobile.jpg);
+	}
+	#blurb-wrapper {
+		height: 310px;
+	}
+}

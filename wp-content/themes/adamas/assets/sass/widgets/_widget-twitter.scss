@@ -1,0 +1,20 @@
+/** Widgets: Twitter */
+.widget_adamas_twitter {
+
+    li {
+        
+        position: relative;
+        padding-left: 30px;
+
+        &:before {
+            content: '\f099';
+            position: absolute;
+            top: 3px;
+            left: 0;
+            font-size: 15px;
+            font-family: 'fontawesome';
+        }
+        
+    }
+
+}

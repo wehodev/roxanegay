@@ -1,0 +1,24 @@
+/** Shortcode: Heading */
+.wpus-heading {
+
+    > * {
+        margin: 0;
+        padding: 0;
+    }
+
+    > span {
+        display: inline-block;
+    }
+
+    > * a {
+        color: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        font-style: inherit;
+        line-height: inherit;
+        letter-spacing: inherit;
+        text-transform: inherit;
+    }
+    
+}

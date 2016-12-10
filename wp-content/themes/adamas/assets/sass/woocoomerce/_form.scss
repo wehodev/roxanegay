@@ -1,0 +1,191 @@
+/*-------------------------------------------------------------------------*/
+/*  WooCommerce: Form
+/*-------------------------------------------------------------------------*/
+
+.form-row,
+.form-group,
+.form-actions {
+	margin-bottom: 20px;
+}
+
+@media only screen and ( min-width: 767px ) {
+	.form-row-first,
+	.form-row-last {
+	    width: 48%;
+	}
+
+	.form-row-first {
+		float: left;
+	}
+
+	.form-row-last {
+	    float: right;
+	}
+}
+
+.form-row label {
+	display: block;
+	padding-bottom: 7px;
+	color: $first_color;
+
+	.required {
+		color: $accent_color;
+		text-decoration: none;
+		border-bottom: 0 none;
+	}
+
+}
+
+.form-row textarea {
+	height: 150px;
+}
+
+
+/* Form: Validation */
+.form-row.woocommerce-invalid .input-text,
+.form-row.woocommerce-invalid select {
+	border: 1px solid #ff9c9c;
+	box-shadow: none;
+}
+
+
+/* Form: Radio Input */
+.input-radio {
+	position: absolute;
+    top: -100px;
+	left: 0;
+    visibility: hidden;
+
+    + label {
+		position: relative;
+		padding-left: 22px;
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 8px;
+			left: 0;
+			display: block;
+			width: 10px;
+			height: 10px;
+			border: 1px solid #ccc;
+			border-radius: 50%;
+			cursor: pointer;
+		}
+
+	}
+
+	&:checked + label:before {
+	    border: 2px solid $first_color;
+	}
+
+}
+
+
+/* Form: Checkbox Input */
+.input-checkbox {
+	position: absolute;
+    top: -100px;
+	left: 0;
+    visibility: hidden;
+
+    + label {
+		position: relative;
+		padding-left: 26px;
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 5px;
+			left: 0;
+			display: block;
+			width: 16px;
+			height: 16px;
+			border: 1px solid #ccc;
+			background: none;
+			cursor: pointer;
+		}
+
+	}
+
+	&:checked + label:before {
+		font-family: 'adamas-icon';
+		font-size: 9px;
+		line-height: 12px;
+		font-style: normal;
+		font-weight: normal;
+		color: $first_color;
+		content: "\f121";
+		text-align: center;
+	    border: 2px solid $first_color;
+	}
+
+}
+
+
+/* Form: Select2 */
+.select2-container {
+
+	.select2-choice {
+		padding: 0 15px;
+		border: none !important;
+		border-radius: 0;
+		background-color: $background_color;
+		line-height: 44px;
+	}
+
+	.select2-arrow {
+	    width: 30px !important;
+	}
+
+}
+
+.select2-drop {
+    border: none !important;
+    background-color: $background_color;
+
+    .select2-search {
+	    position: relative;
+	    padding: 0 15px 0;
+
+	    &:before {
+		    content: '\e612';
+		    font-family: 'adamas-icon';
+		    position: absolute;
+		    right: 30px;
+		    font-size: 12px;
+		    color: rgba(0, 0, 0, 0.5);
+		    line-height: 38px;
+		}
+
+	}
+
+	.select2-search
+	.select2-input {
+	    padding: 0 30px 0 15px !important;
+	    background: #fff !important;
+	    background-image: none !important;
+	    border-color: #eee;
+	    color: inherit;
+	    line-height: 36px;
+	}
+
+	.select2-results {
+	    margin: 0;
+	    padding: 0;
+	    border-radius: 0;
+	    background-color: $background_color;
+	    font-size: $medium_font_size;
+	}
+
+	.select2-result-label {
+	    padding: 2px 20px;
+	}
+
+	.select2-highlighted {
+	    background: none;
+	    color: inherit;
+	    opacity: .7;
+	}
+	
+}

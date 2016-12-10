@@ -1,0 +1,66 @@
+/** Shortcodes: Carousel custom navigation */
+.wpus-carousel-nav {
+
+    position: relative;
+    z-index: 1;
+
+    span {
+
+        position: relative;
+        display: inline-block;
+        margin: 0 -1px;
+        width: 36px;
+        height: 36px;
+        border: 2px solid transparent;
+        font-size: 14px;
+        text-align: center;
+        line-height: 36px;
+        cursor: pointer;
+        transition: all .15s;
+        box-sizing: unset;
+
+        &:hover {
+            z-index: 1;
+        }
+
+    }
+
+    &.size-sm span {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    &.size-lg span {
+        width: 42px;
+        height: 42px;
+        font-size: 18px;
+        line-height: 42px;
+    }
+
+    &.style-bg span {
+
+        background-color: $background_color;
+        color: $first_color;
+
+        &:hover{
+            background-color: $first_color;
+            color: #fff;
+        }
+
+    }
+
+    &.style-outline span {
+        
+        border-color: $border_color;
+        color: $first_color;
+
+        &:hover{
+            background-color: $border_color;
+            color: $first_color;
+        }
+        
+    }
+
+}

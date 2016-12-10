@@ -1,0 +1,22 @@
+/*-------------------------------------------------------------------------*/
+/*  404 page
+/*-------------------------------------------------------------------------*/
+
+.error404 .site-main {
+    
+    text-align: center;
+    
+    @media only screen and (min-width : 480px) {
+        padding: 100px 0;
+    }
+    
+    .search-form {
+        margin: 30px auto 0;
+        max-width: 500px;
+    }
+
+    .search-field {
+        height: 52px;
+    }
+
+}

@@ -1,0 +1,34 @@
+/** Widgets: RSS */
+.widget-title .rsswidget {
+
+	img {
+	    display: none;
+	}
+
+	&:first-child {
+	    float: left;
+	}
+
+	&:last-child {
+	    padding-left: 25px;
+	}
+
+}
+
+.widget_rss {
+
+	ul .rsswidget {
+	    font-weight: 600;
+	}
+
+	.rss-date {
+	    margin: 5px 0;
+	}
+
+	cite {
+	    display: block;
+	    margin-top: 5px;
+	    font-style: normal;
+	}
+	
+}

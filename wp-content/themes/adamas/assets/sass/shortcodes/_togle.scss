@@ -1,0 +1,127 @@
+/** Shortcode: Togle */
+.wpus-toggle-section:not(last-child) {
+    margin-bottom: 5px;
+}
+
+.wpus-toggle-header {
+
+    position: relative;
+    margin: 0;
+    height: 46px;
+    border: 1px solid transparent;
+    font-size: 1em;
+    color: inherit;
+    line-height: 46px;
+    cursor: pointer;
+    box-sizing: unset;
+    transition: color .15s;
+
+    .has-left-icon & {
+        padding: 0 20px 0 68px;
+    }
+
+    .has-right-icon & {
+        padding: 0 68px 0 20px;
+    }
+
+    .style-minimal & {
+        height: 28px;
+        padding: 0 0 0 50px;
+        line-height: 28px;
+    }
+
+    .style-bg & {
+        background-color: $background_color;
+    }
+
+    .style-outline & {
+        border-color: $border_color;
+    }
+
+    &:hover,
+    &.active {
+        color: $first_color;
+    }
+
+    span {
+        display: inline-block;
+        line-height: 22px;
+    }
+
+}
+
+.wpus-toggle-icon {
+
+    position: absolute;
+    top: -1px;
+    width: 46px;
+    height: 46px;
+    border: 1px solid transparent;
+    background-color: $border_color;
+    color: $third_color;
+    text-align: center;
+    line-height: 46px;
+    box-sizing: unset;
+    transition: all .15s;
+
+    .style-minimal & {
+        width: 28px;
+        height: 28px;
+        border-color: $border_color;
+        background-color: transparent;
+    }
+
+    .style-minimal .active & {
+        background-color: $border_color;
+    }
+
+    .has-left-icon & {
+        left: -1px;
+    }
+
+    .has-right-icon & {
+        right: -1px;
+    }
+
+    &:before,
+    &:after {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: block;
+        content: "";
+    }
+
+    &:before { 
+
+        width: 0;
+        height: 10px;
+        margin: -5px 0 0 -1px;
+        border-left: 2px solid;
+
+        .active & {
+            content: none;
+        }
+
+    }
+
+    &:after {
+        width: 10px;
+        height: 0;
+        margin: -1px 0 0 -5px;
+        border-top: 2px solid;
+    }
+
+}
+
+.wpus-toggle-content {
+    
+    display: none;
+    margin: 20px 0;
+
+    .style-minimal & {
+        padding-left: 52px;
+        margin: 10px 0 20px 0;
+    }
+
+}

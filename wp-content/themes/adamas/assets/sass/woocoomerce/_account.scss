@@ -1,0 +1,120 @@
+/*-------------------------------------------------------------------------*/
+/*  WooCommerce: Login/Register/Lost password
+/*-------------------------------------------------------------------------*/
+
+	.woocommerce #customer_login {
+
+		.col-md-5 {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+
+		@media ( max-width: 991px ) {
+		    .col-md-5 + .col-md-5 {
+		        margin-top: 30px;
+		    }
+		}
+
+		.inline {
+			float: right;
+			margin-top: 20px;
+		}
+
+		input {
+			width: 100%;
+			margin-bottom: 0;
+		}
+	}
+
+	.woocommerce .lost_reset_password {
+
+		h3 {
+			margin-bottom: 18px;
+		}
+
+		.form-row {
+			width: 100%;
+			float: none;
+		}
+
+		input {
+			width: 100%;
+			margin-bottom: 0;
+		}
+
+	}
+
+/*-------------------------------------------------------------------------*/
+/*  WooCommerce: My account
+/*-------------------------------------------------------------------------*/
+
+	.woocommerce-edit-address {
+		margin-bottom: 30px;
+	}
+
+	.myaccount_user {
+		margin-bottom: 50px;
+	}
+
+	.woocommerce .edit-account {
+
+		> fieldset {
+			margin-top: 50px;
+		}
+
+		.button {
+			margin-top: 20px;
+		}
+
+	}
+
+	.my_account_orders {
+		margin-bottom: 50px;
+
+		.order-actions {
+			text-align: right;
+		}
+
+		.button {
+			padding: 0;
+			background: none;
+			color: $accent_color;
+			margin-left: 10px;
+			line-height: inherit;
+
+			&:hover {
+				color: #first_color;
+				background: none;
+			}
+		}
+
+	}
+
+	.woocommerce .order_details {
+		margin-bottom: 50px;
+
+		a {
+			color: inherit;
+
+			&:hover {
+				color: $accent_color;
+			}
+		}
+
+		th + th,
+		td + td,
+		th + td {
+			text-align: right;
+		}
+
+	}
+
+	.woocommerce-view-order .customer_details {
+		margin-bottom: 50px;
+	}
+
+	.woocommerce-account .col-1.address,
+	.woocommerce-account .col-2.address {
+		float: left;
+		min-width: 300px;
+	}

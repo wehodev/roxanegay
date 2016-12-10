@@ -1,0 +1,79 @@
+/** Shortcodes: Social */
+.wpus-social {
+
+    margin: -4px -2px 0 -2px;
+
+    &.size-lg {
+        margin: -8px -4px 0 -4px;
+    }
+
+    &.size-ex-lg {
+        margin: -20px -10px 0 -10px;
+    }
+    
+}
+
+.wpus-social-link {
+
+    display: inline-block;
+    margin: 4px 2px 0 2px;
+    width: 38px;
+    height: 38px;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    color: inherit;
+    font-size: 14px;
+    text-align: center;
+    line-height: 38px;
+    letter-spacing: 0 !important;
+    box-sizing: content-box;
+    transition: all .15s;
+
+    .wpus-social.size-sm & {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+    .wpus-social.size-lg & {
+        margin: 8px 4px 0 4px;
+        width: 46px;
+        height: 46px;
+        font-size: 19px;
+        line-height: 46px;
+    }
+
+    .wpus-social.size-ex-lg & {
+        margin: 20px 10px 0 10px;
+        width: 60px;
+        height: 60px;
+        font-size: 26px;
+        line-height: 60px;
+    }
+
+    .wpus-social.style-bg & {
+
+        background-color: $background_color;
+        color: $first_color;
+
+        &:hover{
+            background-color: $accent_color;
+            color: #fff;
+        }
+
+    }
+
+    .wpus-social.style-outline & {
+        
+        border-color: $border_color;
+        color: $first_color;
+
+        &:hover{
+            background-color: $border_color;
+            color: $first_color;
+        }
+        
+    }
+
+}

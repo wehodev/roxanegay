@@ -1,0 +1,109 @@
+/*-------------------------------------------------------------------------*/
+/*  WooCommerce: Common
+/*-------------------------------------------------------------------------*/
+
+/* Product variation */
+.variation dt,
+.variation dd {
+	font-size: 12px;
+	line-height: 1.4;
+	font-weight: normal;
+	color: #888;
+}
+.variation dt {
+	float: left;
+	margin-right: 5px;
+}
+.variation dd {
+	margin-bottom: 0;
+}
+.variation p {
+	margin-bottom: 0;
+}
+
+
+/* Order details */
+.order_details {
+	font-size: 16px;
+	color:  #222;
+	margin-top: -6px;
+}
+
+.order_details li {
+	line-height: 1.4;
+	padding: 14px 0;
+	border-bottom: 1px solid #eee;
+	overflow: hidden;
+}
+
+.order_details li:first-child {
+	padding-top: 0;
+}
+
+.order_details li:last-child {
+	padding-bottom: 0;
+	border-bottom: 0 none;
+}
+
+.order_details li .product-name > a {
+	color: #222;
+}
+
+.order_details li .product-name strong {
+	font-weight: normal;
+}
+
+.order_details li .product-name .variation {
+	padding-top: 4px;
+}
+
+.order_details li .product-total {
+	text-align: right;
+}
+
+.customer_details {
+	padding-top: 43px;
+}
+
+.customer_details h2 {
+	margin-bottom: 24px;
+}
+
+.customer_details li {
+	margin-bottom: 15px;
+}
+
+.customer_details li:last-child {
+	margin-bottom: 0;
+}
+
+/* Order info */
+.order-info {
+	margin-bottom: 48px;
+	padding: 21px;
+	text-align: center;
+	background: #f7f7f7;
+}
+.order-info mark,
+.order-info .order-number,
+.order-info .order-date,
+.order-info .order-status {
+	color: #fff;
+	padding: 4px 7px;
+	background: #81c689;
+}
+
+/* Addresses */
+.addresses {
+	color: #222;
+	padding-top: 21px;
+}
+.addresses h3 {
+	font-size: 16px;
+}
+.addresses address {
+	font-style: normal;
+	color: #888;
+    margin-bottom: 0;
+	padding-top: 14px;
+}

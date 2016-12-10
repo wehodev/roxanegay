@@ -1,0 +1,176 @@
+/*-------------------------------------------------------------------------*/
+/*  WooCommerce: Checkout
+/*-------------------------------------------------------------------------*/
+
+.woocommerce-checkout .woocommerce-info {
+	margin-bottom: 15px;
+
+	+ .login {
+		max-width: 650px;
+		margin: 30px auto;
+
+		.button {
+			width: 100%;
+		}
+
+		.inline {
+			float: right;
+		}
+	}
+
+	+ .login > .form-row {
+		float: left;
+		width: 48%;
+	}
+
+	+ .login > .form-row + .form-row {
+		float: right;
+	}
+
+}
+
+form.woocommerce-checkout {
+	margin-top: 50px;
+}
+
+.woocommerce #customer_details {
+	margin-bottom: 50px;
+}
+
+.woocommerce .woocommerce-checkout h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+p.create-account {
+	margin-bottom: 20px;
+}
+
+p.create-account {
+	position: relative;
+	display: block;
+	font-size: 16px;
+	line-height: 16px;
+	color: #222;
+	margin-top: 10px;
+}
+
+p.create-account label {
+	cursor: pointer;
+}
+
+div.create-account {
+	margin-top: 10px;
+}
+
+div.create-account span {
+	display: block;
+	padding-bottom: 3px;
+}
+
+
+/* Checkout: Shipping details */
+.woocommerce-shipping-fields {
+	padding-top: 43px;
+}
+
+#ship-to-different-address {
+	position: relative;
+	font-size: 16px;
+	line-height: 16px;
+	color: #222;
+	padding-bottom: 18px;
+}
+
+#ship-to-different-address input {
+    visibility: hidden;
+}
+
+.shipping_address {
+	margin-bottom: -1px;
+}
+
+/* Checkout: Your order - Cart totals */
+.woocommerce-checkout-review-order-table {
+	padding-top: 43px;
+
+	th + th,
+	td + td,
+	th + td {
+		text-align: right;
+		width: 50%;
+	}
+}
+
+.cart_totals > ul {
+	margin-top: 19px;
+}
+
+.cart_totals > ul > li:last-child {
+	border-bottom: 0 none;
+}
+
+.cart_totals ul li .product-total small {
+    color: #888;
+    display: block;
+    font-size: 12px;
+	padding-top: 7px;
+}
+
+
+/* Checkout: Payment */
+.payment_methods {
+	margin-top: 40px;
+
+	li {
+		margin-top: -1px;
+		padding: 10px 20px;
+		border: 1px solid $border_color;
+	}
+
+	label {
+		color: #222;
+	}
+
+	img {
+		display: inline-block;
+		width: auto;
+		max-height: 40px;
+		margin-left: 15px;
+		vertical-align: middle;
+	}
+
+	a {
+		margin-left: 15px;
+		white-space: nowrap;
+	}
+
+	.payment_box {
+		padding-left: 22px;
+		font-size: $medium_font_size;
+		color: $third_color;
+	}
+
+	.payment_method_paypal .input-radio + label:before {
+		top: 13px;
+	}
+}
+
+
+/* Checkout: Place order */
+.place-order {
+	.terms {
+		margin: 20px 0 10px;
+
+		label {
+			font-size: inherit;
+			padding-bottom: 0;
+		}
+	}
+
+	.button {
+		width: 100%;
+		margin-top: 10px;
+		padding: 10px 0;
+	}
+}

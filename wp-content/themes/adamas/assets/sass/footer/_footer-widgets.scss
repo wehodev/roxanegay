@@ -1,0 +1,72 @@
+/*-------------------------------------------------------------------------*/
+/*  Footer Widgets
+/*-------------------------------------------------------------------------*/
+
+.footer-widgets {
+
+    padding: 60px 0;
+    background-color: $footer_bg_color;
+    color: $footer_text_color;
+    line-height: 24px;
+
+    .widget,
+    .widget-area:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    @media only screen and (min-width : 992px) {
+        .widget-area {
+            margin-bottom: 0 !important;
+        }
+    }
+
+    .widget-title,
+    #wp-calendar caption,
+    #wp-calendar thead th {
+        color: $footer_widget_title_color;
+    }
+
+    a {
+        
+        color: $footer_links_color;
+
+        &:hover {
+            color: $accent_color;
+        }
+
+    }
+
+    .wpus-widget-meta,
+    .post-date,
+    .rss-date,
+    .post-count,
+    .widget_rss cite,
+    .widget_adamas_twitter li:before {
+        color: rgba( $footer_text_color, .54 );
+    }
+
+    textarea,
+    [type="text"],
+    [type="email"],
+    [type="number"],
+    [type="search"],
+    [type="url"],
+    .tagcloud a {
+        background-color: rgba( $footer_text_color, .05 );
+    }
+
+    textarea:focus,
+    [type="text"]:focus,
+    [type="email"]:focus,
+    [type="number"]:focus,
+    [type="search"]:focus,
+    [type="url"]:focus,
+    .tagcloud a:hover {
+        background-color: rgba( $footer_text_color, .1 );
+    }
+
+    .tagcloud a:hover {
+        color: $footer_links_color;
+    }
+    
+}

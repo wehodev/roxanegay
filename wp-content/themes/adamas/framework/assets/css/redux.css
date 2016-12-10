@@ -1,0 +1,576 @@
+/**
+ * Redux Framework CSS
+ *
+ * Author: WP Uber Studio
+ * Version: 1.0
+ */
+
+/*-------------------------------------------------------------------------*/
+/*  General
+/*-------------------------------------------------------------------------*/
+
+    .redux-group-tab > h2 {
+        display: none;
+    }
+
+    .wpus-section-wrap {
+        margin: 20px 5px;
+        padding: 30px 30px 10px 30px;
+        background-color: #fff;
+        border: 1px solid #eee;
+        -webkit-box-shadow: 0 2px 3px -2px rgba(0,0,0,0.05);
+        box-shadow: 0 2px 3px -2px rgba(0,0,0,0.05);
+    }
+
+    .wpus-section-wrap + .wpus-section-wrap {
+        margin-top: 20px;
+    }
+
+    #redux-form-wrapper .redux-section-field {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #f2f2f2;
+    }
+
+    #redux-form-wrapper .redux-section-field h3 {
+        margin: 0 !important;
+        border-bottom:  none !important;
+        font-size: 16px !important;
+    }
+
+    .wpus-section-wrap table {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    #redux-form-wrapper .redux_field_th {
+        padding: 20px 20px 20px 0;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    #redux-form-wrapper .description,
+    #redux-form-wrapper .redux-section-desc {
+        margin-top: 5px;
+        color: #999;
+        font-size: 12px;
+        font-style: italic;
+        line-height: 18px;
+    }
+
+    #redux-form-wrapper .redux-section-desc {
+        margin-bottom: 5px !important;
+    }
+    
+    #redux-form-wrapper .redux-main {
+        background-color: #f9f9f9 !important;
+        margin-left: 231px !important;
+        border-left-color: #e7e7e7 !important;
+    }
+
+    #redux-form-wrapper .form-table tr:not(:last-child) {
+        border-bottom: 1px solid #f2f2f2;
+    }
+
+    #redux-form-wrapper .color-transparency-check {
+        font-size: 12px;
+    }
+
+/*-------------------------------------------------------------------------*/
+/*  Header
+/*-------------------------------------------------------------------------*/
+    
+    #redux-header {
+        border-bottom: none !important;
+    }
+
+    #redux-header .display_header h2 {
+        padding: 0;
+        line-height: 1;
+    }
+
+    .redux-container #info_bar {
+        border-color: #e7e7e7 !important;
+        padding: 8px 34px 8px 24px !important;
+    }
+
+/*-------------------------------------------------------------------------*/
+/*  Navigation
+/*-------------------------------------------------------------------------*/
+
+    #redux-form-wrapper .redux-sidebar {
+        width: 231px !important;
+    }
+
+    #redux-form-wrapper .redux-sidebar .redux-group-menu a {
+        padding: 15px 10px 15px 15px;
+        width: auto !important;
+        font-weight: 400 !important;
+    }
+
+    #redux-form-wrapper .redux-sidebar .redux-group-menu a:after {
+        content: none !important;
+    }
+
+    #redux-form-wrapper .redux-sidebar .redux-group-menu i {
+        font-size: 14px;
+        margin-top: 2px;
+    }
+
+    #redux-form-wrapper .redux-sidebar .extraIconSubsections i {
+        font-size: 8px;
+        margin-top: -1px;
+    }
+    
+/*-------------------------------------------------------------------------*/
+/*  Input style
+/*-------------------------------------------------------------------------*/
+
+    #redux-form-wrapper input[type="text"]:not(.wp-color-picker), 
+    #redux-form-wrapper input[type="password"], 
+    #redux-form-wrapper input[type="date"], 
+    #redux-form-wrapper input[type="datetime"], 
+    #redux-form-wrapper input[type="email"], 
+    #redux-form-wrapper input[type="number"], 
+    #redux-form-wrapper input[type="search"], 
+    #redux-form-wrapper input[type="tel"], 
+    #redux-form-wrapper input[type="time"], 
+    #redux-form-wrapper input[type="url"] {
+        width: 100%;
+        max-width: 400px;
+        height: 38px;
+        padding: 0 15px;
+        border-radius: 2px;
+        color: #666;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    #redux-form-wrapper input[type="text"]:focus, 
+    #redux-form-wrapper input[type="password"]:focus, 
+    #redux-form-wrapper input[type="date"]:focus, 
+    #redux-form-wrapper input[type="datetime"]:focus, 
+    #redux-form-wrapper input[type="email"]:focus, 
+    #redux-form-wrapper input[type="number"]:focus, 
+    #redux-form-wrapper input[type="search"]:focus, 
+    #redux-form-wrapper input[type="tel"]:focus, 
+    #redux-form-wrapper input[type="time"]:focus, 
+    #redux-form-wrapper input[type="url"]:focus {
+        border-color: #ccc;
+        -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset;
+    }
+
+    #redux-form-wrapper textarea {
+        padding: 10px;
+        color: #666;
+        font-size: 12px;
+    }
+
+    #redux-form-wrapper .redux-container-checkbox {
+        font-size: 12px;
+    }
+
+    #redux-form-wrapper .wpus-select-field {
+        width: 100%;
+        margin: 0;
+        height: 38px;
+        padding: 0 15px;
+        color: #666;
+        font-size: 12px;
+    }
+
+/*-------------------------------------------------------------------------*/
+/*  Sortable style
+/*-------------------------------------------------------------------------*/
+
+    #redux-form-wrapper .redux-container-sortable .redux-sortable {
+        margin: 0;
+    }
+
+    #redux-form-wrapper .redux-container-sortable label {
+        font-size: 12px;
+    }
+
+    #redux-form-wrapper .redux-container-sortable label strong {
+        font-weight: 500;
+    }
+
+/*-------------------------------------------------------------------------*/
+/*  Switch / Button group
+/*-------------------------------------------------------------------------*/
+
+    #redux-form-wrapper .redux-container-switch label,
+    #redux-form-wrapper .redux-container-button_set label {
+        border-color: transparent !important;
+        background-image: none !important;
+        background-color: #eee !important;
+
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    #redux-form-wrapper .redux-container-switch .cb-enable.selected, 
+    #redux-form-wrapper .redux-container-button_set .ui-state-active {
+        background-color: #95CD63 !important;
+        border-color: #95CD63 !important;
+    }
+
+    #redux-form-wrapper .redux-container-switch .cb-disable.selected {
+        background-color: #666 !important;
+        border-color: #666 !important;
+    }
+
+    #redux-form-wrapper .redux-container-switch label span,
+    #redux-form-wrapper .redux-container-button_set label span {
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    #redux-form-wrapper .ui-buttonset .ui-button {
+        margin-left: 0;
+        margin-right: 3px !important;
+        border-radius: 2px !important;
+    }
+
+    #redux-form-wrapper .cb-enable.selected,
+    #redux-form-wrapper .cb-disable.selected {
+        pointer-events: none;
+    }
+
+    #redux-form-wrapper .cb-enable:not(.selected),
+    #redux-form-wrapper .cb-disable:not(.selected) {
+        color: #999;
+    }
+
+/*-------------------------------------------------------------------------*/
+/*  Image select
+/*-------------------------------------------------------------------------*/
+
+    #redux-form-wrapper .redux-container-image_select img {
+        border-width: 1px;
+        border-color: #eee;
+    }
+
+    #redux-form-wrapper .redux-container-image_select .redux-image-select-selected img {
+        border-color: #87d37c;
+        background-color: rgba(134, 211, 124, 0.1);
+    }
+
+    #redux-form-wrapper .redux-image-select {
+        padding-right: 10px;
+    }
+
+    #redux-form-wrapper .redux-container-image_select .redux-image-select-selected {
+        background: none;
+    }
+
+/*-------------------------------------------------------------------------*/
+/*  Info
+/*-------------------------------------------------------------------------*/
+
+    #redux-form-wrapper .redux-field-info.redux-normal {
+        background-color: #eee;
+        border: none;
+        color: #333;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 30px 0 10px;
+        padding: 6px 20px;
+        border-radius: 2px;
+        box-shadow: none;
+    }
+
+    .form-table.no-border + .redux-field-info.redux-normal {
+        margin: 30px 0 0;
+    }
+
+    #redux-form-wrapper .redux-field-info.redux-normal li {
+        font-size: 12px;
+        font-weight: 400;
+        padding-bottom: 5px;
+    }
+
+    #redux-form-wrapper .redux-info.redux-notice-field.redux-field-info {
+        background-color: #feefb3;
+        border: medium none;
+        box-shadow: none;
+        color: #7a6545;
+        font-weight: 400;
+        padding: 10px 20px;
+    }
+
+    #redux-form-wrapper .redux-info.redux-notice-field.redux-field-info p {
+        font-size: 12px;
+    }
+
+/*-------------------------------------------------------------------------*/
+/*  Dimension field
+/*-------------------------------------------------------------------------*/
+
+    #redux-form-wrapper .redux-main .input-append .add-on,
+    #redux-form-wrapper .redux-main .input-prepend .add-on {
+        padding: 0 5px !important;
+        border-color: #ddd;
+        line-height: 36px;
+    }
+
+    #redux-form-wrapper .redux-main .input-append .add-on > *,
+    #redux-form-wrapper .redux-main .input-prepend .add-on > * {
+        position: relative;
+    } 
+
+    #redux-form-wrapper .redux-dimensions-input.redux-dimensions-height.mini {
+        width: 70px !important;
+    }
+
+/*-------------------------------------------------------------------------*/
+/*  Select
+/*-------------------------------------------------------------------------*/
+
+    #redux-form-wrapper .select2-choice {
+        height: 36px;
+        padding-left: 15px;
+        border-color: #ddd;
+        background-image: none;
+        color: #666;
+        font-size: 12px;
+        line-height: 36px;
+
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+
+        background: -webkit-linear-gradient(#fff, #fbfbfb);
+        background: linear-gradient(#fff, #fbfbfb);
+    
+        -webkit-box-shadow: 0 2px 3px -2px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 2px 3px -2px rgba(0, 0, 0, 0.05);
+    }
+
+    #redux-form-wrapper .select2-container .select2-choice > .select2-chosen {
+        line-height: inherit;
+    }
+
+    #redux-form-wrapper .select2-container-active .select2-choice {
+        border-color: #ddd;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    #redux-form-wrapper abbr {
+        top: 12px;
+        right: 42px;
+    }
+
+    #redux-form-wrapper .select2-arrow {
+        width: 30px;
+        background: #f5f5f5;
+        border-color: #e2e2e2;
+
+        -webkit-border-radius: 0 2px 2px 0;
+        -moz-border-radius: 0 2px 2px 0;
+        border-radius: 0 2px 2px 0;
+    }
+
+    #redux-form-wrapper .select2-dropdown-open .select2-choice {
+        background-color: #f5f5f5;
+    }
+    
+    #redux-form-wrapper .select2-container .select2-choice .select2-arrow b{
+        background: none;
+    }
+
+    #redux-form-wrapper .select2-container .select2-choice .select2-arrow b:after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: block;
+        margin-top: -1px;
+        margin-left: -5px;
+        border-color: #666 transparent transparent;
+        border-style: solid;
+        border-width: 4px;
+        background: none;
+        border-image: none;
+    }
+
+    .select2-drop {
+        border: 1px solid #ddd !important;
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        box-shadow: none !important;
+        margin-top: 9px !important;
+    }
+
+    .select2-drop.select2-drop-above {
+        margin-top: 2px !important;
+    }
+
+    .select2-search {
+        margin: 10px 0 !important;
+        padding: 0 15px !important;
+    }
+
+    .select2-results {
+        margin: 0 !important;
+        padding: 0 !important;
+        color: #666 !important;
+        font-size: 12px !important;
+    }
+
+    .select2-results li {
+        padding: 8px 15px !important;
+        margin: 0 !important;
+    }
+
+    .select2-results li.select2-highlighted {
+        background: #f5f5f5 !important;
+        color: #666 !important;
+    }
+
+    .select2-results .select2-result-label {
+        padding: 0 !important;
+    }
+
+    .select2-search input {
+        border: 1px solid #ddd;
+        background: none !important;
+    }
+
+/*-------------------------------------------------------------------------*/
+/*  Slider
+/*-------------------------------------------------------------------------*/
+
+    #redux-form-wrapper .redux-slider-container,
+    #redux-form-wrapper .redux-slider-container .noUi-background {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    #redux-form-wrapper .redux-slider-container,
+    #redux-form-wrapper .redux-slider-label {
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+
+    #redux-form-wrapper .redux-slider-container {
+        margin-left: 30px;
+        background-color: #87d37c !important;
+        background-image: none !important;
+        border: none !important;
+    }
+
+    #redux-form-wrapper .redux-slider-container .noUi-background {
+        background-color: #ddd;
+    }
+
+    #redux-form-wrapper .redux-slider-label {
+        width: 40px;
+        margin: 1px 0 0 0;
+        background-color: #ddd;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: .03em;
+    }
+
+    #redux-form-wrapper .redux-container-slider .redux-slider-input {
+        width: 80px !important;
+        text-align: center !important;
+    }
+
+/*-------------------------------------------------------------------------*/
+/*  Typography
+/*-------------------------------------------------------------------------*/
+
+    #redux-form-wrapper .redux-typography-container .select_wrapper {
+        margin-bottom: 10px;
+    }
+
+    #redux-form-wrapper .redux-typography-container label {
+        margin: 0 0 7px !important;
+        color: #777;
+        font-style: italic;
+        line-height: 1;
+    }
+
+    #redux-form-wrapper .redux-typography-container .input_wrapper {
+        height: 62px;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    #redux-form-wrapper .form-table-section .redux-typography-container {
+        max-width: none !important
+    }
+
+    #redux-form-wrapper .form-table-section .redux-typography-container .select_wrapper,
+    #redux-form-wrapper .form-table-section .redux-typography-container .input_wrapper {
+        max-width: unset !important;
+        min-width: unset !important;
+        width: 200px !important;
+    }
+
+    #redux-form-wrapper .form-table-section .redux-typography-container .typography-family {
+        width: 250px !important;
+    }
+
+    #redux-form-wrapper .form-table-section .redux-typography-container .input_wrapper {
+        width: 130px !important;
+    }
+
+    #redux-form-wrapper .form-table-section .redux-typography-container .input-append {
+        margin-right: 35px;
+    }
+
+/*-------------------------------------------------------------------------*/
+/*  Import
+/*-------------------------------------------------------------------------*/
+
+    #redux-form-wrapper .redux-container-import_export h4:first-child {
+        margin-top: 0px;
+    }
+
+    #redux-form-wrapper #redux-import-action {
+        margin-top: 10px;
+    }
+
+    #redux-form-wrapper #redux-import-action span {
+        color: #b94a48;
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: 5px;
+    }
+
+    #redux-form-wrapper #redux-import-action label {
+        font-size: 11px;
+    }
+
+    #redux-form-wrapper .redux-container-border .select2-container {
+        width: 100px;
+    }
+
+/*-------------------------------------------------------------------------*/
+/*  Other
+/*-------------------------------------------------------------------------*/
+
+    #redux-form-wrapper .ace_editor {
+        margin: -10px 0 0 0 !important;
+    }
+
+    #redux-form-wrapper #redux-footer {
+        padding: 14px 10px;
+    }
+
+    #redux-form-wrapper #redux-footer .redux-action_bar {
+        margin-right: 18px;
+    }

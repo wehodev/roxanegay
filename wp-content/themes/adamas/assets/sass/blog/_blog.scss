@@ -1,0 +1,184 @@
+/** Blog: General */
+.wpus-blog {
+
+    .entry-title {
+        margin-bottom: 0;
+        line-height: 1.4;
+    }
+
+}
+
+
+/** Blog: Media */
+.entry-media {
+
+    position: relative;
+    display: block;
+    overflow: hidden;
+
+    .wp-audio-shortcode {
+        margin: 0;
+    }
+
+    img {
+        border-radius: 2px;
+        width: 100%;
+    }
+
+}
+
+
+/** Blog: Meta */
+.entry-meta {
+
+    color: $third_color;
+    font-size: $medium_font_size - 1px;
+    font-weight: 600;
+    word-spacing: 1px;
+
+    a {
+        color: inherit;
+
+        &:hover {
+            color: $accent_color;
+        }
+
+    }
+
+}
+
+
+/** Blog: Read More */
+.read-more {
+
+    display: block;
+
+    span {
+        position: relative;
+        top: 1px;
+        right: 0;
+        margin-left: 5px;
+        font-size: 14px;
+        transition: right .2s;
+    }
+
+    &:hover span {
+        right: -5px;
+    }
+
+}
+
+/** Blog: Grid */
+.wpus-blog-grid {
+
+    .entry-media {
+        margin-bottom: 20px;
+    }
+
+    .entry-meta {
+        margin-bottom: 8px;
+    }
+
+    .entry-title {
+        font-size: $h4_font_size;
+        line-height: 1.4;
+    }
+
+    .read-more,
+    .entry-excerpt {
+        margin-top: 8px;
+    }
+
+    &.no-excerpt .entry-meta {
+        margin-bottom: 0;
+    }
+
+}
+
+
+/** Blog: Large */
+.wpus-blog-large {
+
+    .entry-media {
+        margin-bottom: 30px;
+        @media only screen and (max-width: 991px) {
+            margin-bottom: 25px;        
+        }
+    }
+
+    .entry-meta {
+        margin-bottom: 10px;
+    }
+
+    .entry-title {
+        font-size: $h3_font_size;
+    }
+
+    .read-more,
+    .entry-excerpt {
+        margin-top: 10px;
+    }
+
+}
+
+
+/** Blog: Medium */
+.wpus-blog-medium {
+
+    .no-sidebar &,
+    .no-sidebar & article,
+    .no-sidebar & + #pagination {
+        max-width: 960px;
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    @media only screen and (min-width: 992px) {
+        .col-md-7 {
+            padding-left: 30px;
+        }           
+    }
+
+    @media only screen and (max-width: 992px) {
+        .entry-media {
+            margin-bottom: 20px;
+        }           
+    }
+
+    .entry-meta {
+        margin: 10px 0 8px;
+    }
+
+    .entry-title {
+        font-size: $h4_font_size;
+    }
+
+    .entry-excerpt,
+    .read-more {
+        margin-top: 8px;
+    }
+
+}
+    
+/** Blog: Archive title */
+.archive-title {
+
+    margin-bottom: 30px;
+
+    h2 {
+
+        color: $third_color;
+        font-size: $h4_font_size;
+
+        span {
+            padding-left: 3px;
+            color: $first_color;
+        }
+
+    }
+
+    div {
+        margin-top: 10px;
+    }
+
+}

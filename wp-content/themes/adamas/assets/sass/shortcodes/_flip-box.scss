@@ -1,0 +1,91 @@
+/** Shortcodes: Flip Box */
+.wpus-flip-box {
+
+    position: relative;
+    text-align: center;
+
+    .wpus-flip-box-front,
+    .wpus-flip-box-back {
+    	padding: 40px;
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-position: center center;
+    	transition: all 0.5s ease 0s;
+    	transform-style: preserve-3d;
+    }
+
+    .wpus-flip-box-front {
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    background-color: $background_color;
+    }
+
+    .wpus-flip-box-back {
+
+    	height: 100%;
+    	background-color: $accent_color;
+	    opacity: 0;
+	    transform: rotateY(-180deg);
+
+	    * {
+	    	color: #fff;
+	    }
+
+	    *:last-child {
+	    	margin-bottom: 0;
+	    }
+
+    }
+
+    &:hover .wpus-flip-box-front {
+	    opacity: 0;
+	    transform: rotateY(180deg);
+    }
+
+    &:hover .wpus-flip-box-back {
+	    opacity: 1;
+	    transform: rotateY(0deg);
+	}
+
+	.wpus-v-align {
+
+		position: absolute;
+		left: 0;
+		top: 50%;
+		width: 100%;
+		padding: 30px;
+		transform: translateY(-50%);
+
+		*:last-child {
+	    	margin-bottom: 0;
+	    }
+	    
+	}
+
+	i {
+		margin-bottom: 20px;
+		font-size: 33px;
+	}
+
+	h5 {
+		margin-bottom: 15px;
+	}
+
+	.wpus-button.style-bg {
+		
+		display: block;
+		margin-top: 20px;
+		background-color: #fff;
+		color: $accent_color;
+
+		&:hover {
+			background-color: #fff;
+			color: $accent_color
+		}
+
+	}
+	
+}

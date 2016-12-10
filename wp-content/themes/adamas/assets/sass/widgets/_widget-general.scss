@@ -1,0 +1,92 @@
+/** Widgets: General */
+.widget {
+
+    .site-sidebar & {
+
+        margin-bottom: 60px;
+
+        li > a {
+            color: inherit;
+        }
+
+        li > a:hover {
+            color: $accent_color;
+        }
+
+    }
+
+    &:last-child {
+        margin-bottom: 0 !important;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    ul .children,
+    ul .sub-menu,
+    ol .children,
+    ol .sub-menu {
+        margin: 6px 0 6px 20px;
+    }
+
+    ul > li,
+    .page_item_has_children > a,
+    .menu-item-has-children > a {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    ul > li:last-child {
+        margin-bottom: 0 !important;
+    }
+
+    select {
+        display: none;
+    }
+
+    .adamas-overlay {
+        background-color: rgba(#fff, 0.3);
+    }
+
+    &.widget_rss li,
+    &.widget_adamas_posts li,
+    &.widget_adamas_twitter li,
+    &.widget_recent_entries li,
+    &.widget_recent_comments li {
+        margin-bottom: 15px !important;
+    }
+
+    .widget-title {
+        margin-bottom: 15px;
+    }
+
+    .adamas-widget-meta,
+    .post-date,
+    .rss-date,
+    .rsswidget {
+        display: block;
+    }
+
+    .adamas-widget-meta,
+    .post-date,
+    .rss-date,
+    .post-count,
+    cite {
+        color: $third_color;
+        font-size: $medium_font_size;
+    }
+
+    .post-count {
+        padding-left: 10px;
+        letter-spacing: 1px;
+    }
+
+    .wpus-overlay {
+        &:before,
+        &:after {
+            content: none;
+        }
+    }
+
+}

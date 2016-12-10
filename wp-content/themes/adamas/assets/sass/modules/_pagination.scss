@@ -1,0 +1,62 @@
+/** Pagination */
+.site-pagination {
+
+    .container {
+        padding: 0;
+    }
+
+    ul {
+        margin: 0 -2px !important;
+        padding: 0 !important;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 2px;
+    }
+
+    a,
+    span {
+        display: inline-block;
+        width: 34px;
+        height: 34px;
+        border: 1px solid transparent;
+        color: inherit;
+        line-height: 34px;
+        text-align: center;
+        box-sizing: content-box;
+        transition: all .15s;
+    }
+
+    &.style-bg a,
+    &.style-bg span {
+        background-color: $background_color;
+        color: inherit;
+    }
+
+    &.style-outline a,
+    &.style-outline span {
+        background: none;
+        border-color: $border_color;
+        color: inherit;
+    }
+
+    &.style-bg a:hover,
+    &.style-outline a:hover,
+    &.style-bg .current,
+    &.style-outline .current  {
+        border-color: transparent;
+        background-color: $accent_color;
+        color: #fff;
+    }
+
+    i {
+        font-size: 14px;
+        line-height: inherit;
+    }
+
+    .wpus-portfolio + & {
+        margin-top: 60px;
+    }
+
+}

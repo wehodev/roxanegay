@@ -1,0 +1,46 @@
+.wpus-portfolio-nav {
+    padding: 40px 0;
+    text-align: center;
+    border-top: 1px solid $border_color;
+
+    .prev,
+    .next {
+        font-weight: 600;
+        color: $first_color;
+
+        &:hover {
+            color: $accent_color;
+        }
+    }
+
+    .prev {
+        float: left;
+    }
+
+    .next {
+        float: right;
+    }
+
+    .prev:before,
+    .next:after {
+        font-size: 20px;
+        color: $third_color;
+        display: inline-block;
+        font: normal normal normal;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .prev:before {
+        content: "\2190";
+        margin-right: 7px;
+    }
+
+    .next:after {
+        content: "\2192";
+        margin-left: 7px;
+    }
+
+}

@@ -1,0 +1,84 @@
+/** Header: Logo */
+.site-branding {
+    display: inline-block;
+
+    @media only screen and ( max-width: 992px ) {
+        float: left !important;
+        margin: 0 20px 0 0 !important;
+        position: static !important;
+        transform: none !important;
+    }
+
+    img {
+        transition: all .3s;
+    }
+
+    .light-logo,
+    .dark-logo {
+        display: none;
+    }
+
+    .transparent-light &,
+    .transparent-dark & {
+
+        .default-logo {
+            display: none;
+        }
+
+        .light-logo,
+        .dark-logo {
+            display: inline-block;
+        }
+
+    }
+
+}
+
+.header-type-1,
+.header-type-3 {
+    .site-branding {
+        float: left;
+        margin-right: 30px;
+    }
+}
+
+.header-type-2,
+.header-type-4 {
+    .site-branding {
+        position: absolute;
+    }
+}
+
+.header-type-2 {
+    .site-branding {
+        left: 15px;
+    }
+}
+
+.header-type-4 {
+    .site-branding {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.header-type-5 {
+    .site-branding {
+        float: right;
+        margin-left: 30px;
+    }
+}
+
+.site-logo-image {
+    max-width: 80px;
+}
+
+/** Header: Logo Visibility */
+@media only screen and ( min-width: 992px ) {
+    .mobile-logo { display: none; }
+}
+
+@media only screen and ( max-width: 992px ) {
+    .site-logo-image:not(.mobile-logo) { display: none !important; }
+    .site-logo-image.mobile-logo { display: inline-block; }
+}

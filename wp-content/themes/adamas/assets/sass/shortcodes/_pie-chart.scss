@@ -1,0 +1,42 @@
+/** Shortcodes: Pie chart */
+.wpus-pie-chart {
+    
+    position: relative;
+    display: block;
+    text-align: center;
+    border-radius: 100%;
+
+    &.pie-chart-left   { margin: 0 auto 0 0; }
+    &.pie-chart-center { margin: 0 auto; }
+    &.pie-chart-right  { margin: 0 0 0 auto; }
+
+    @media ( min-width: 481px ) and ( max-width: 991px ) {
+        &.pie-chart-left-sm   { margin: 0 auto 0 0; }
+        &.pie-chart-center-sm { margin: 0 auto; }
+        &.pie-chart-right-sm  { margin: 0 0 0 auto; }
+    }
+
+    @media ( max-width: 480px ) {
+        &.pie-chart-left-xs   { margin: 0 auto 0 0; }
+        &.pie-chart-center-xs { margin: 0 auto; }
+        &.pie-chart-right-xs  { margin: 0 0 0 auto; }
+    }
+
+    h3,
+    i {
+        margin: 0;
+        font-size: 2em;
+        line-height: inherit !important;
+    }
+
+    h3 {
+        font-weight: 400;
+    }
+
+    canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+}

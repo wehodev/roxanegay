@@ -1,0 +1,48 @@
+/*-------------------------------------------------------------------------*/
+/*  WooCommerce: Notifications
+/*-------------------------------------------------------------------------*/
+
+.woocommerce-message,
+.woocommerce-error,
+.woocommerce-info  {
+	position: relative;
+	margin-bottom: 60px;
+    padding: 15px 25px;
+    text-align: center;
+
+	.button,
+	a {
+	    display: inline-block;
+	    padding: 0;
+	    border: none;
+	    background-color: transparent;
+	    color: inherit;
+	    font-weight: 600;
+	    line-height: inherit;
+
+	    &:hover {
+		    opacity: .6;
+		}
+
+	}
+
+	.button {
+	    margin-left: 10px;
+	}
+	
+}
+
+.woocommerce-message {
+    background: #ecf8df;
+    color: #7e9a1c;
+}
+
+.woocommerce-info {
+    background-color: #dff2fe;
+    color: #536F82;
+}
+
+.woocommerce-error {
+    background: #f9e3e6;
+    color: #a61c20;
+}

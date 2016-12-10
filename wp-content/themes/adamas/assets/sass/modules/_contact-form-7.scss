@@ -1,0 +1,43 @@
+/*-------------------------------------------------------------------------*/
+/*  Contact Form 7
+/*-------------------------------------------------------------------------*/
+.wpcf7 span.wpcf7-not-valid-tip,
+.wpcf7-validation-errors {
+    display: none !important;
+}
+
+input.wpcf7-not-valid {
+    border: 1px solid #bf1515 !important;
+}
+
+.wpcf7-form input[type="checkbox"]{
+    width:auto;
+}
+
+.wpcf7 form.wpcf7-form p {
+    position:relative;
+}
+
+.wpcf7-list-item{display:inline-block;margin:0 10px 0 0!important;}
+.wpcf7-list-item-label{font-weight:normal;}
+.wpcf7-response-output{display:none;}
+
+div.wpcf7-response-output{margin:0!important;padding:5px 10px!important;}
+
+div.wpcf7-mail-sent-ok,
+div.wpcf7-mail-sent-ng,
+div.wpcf7-spam-blocked,
+div.wpcf7-validation-errors{
+    position:relative;
+    display:block;
+    text-align:center;
+    padding: 10px!important;
+    background-color:#44bdbd;
+    color:#ffffff;
+    margin: 0;
+    border: none;
+}
+
+div.wpcf7-mail-sent-ok{color:#ffffff;}
+
+.wpcf7-form .simpleselect{margin:5px 0 0!important;}

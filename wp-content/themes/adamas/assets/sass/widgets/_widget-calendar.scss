@@ -1,0 +1,44 @@
+/** Widgets: Calendar */
+#wp-calendar {
+
+    margin: 0;
+
+    * {
+        border: none;
+    }
+    
+    caption {
+        margin-bottom: 15px;
+        color: $first_color;
+        font-size: $h6_font_size;
+        text-align: left;
+    }
+
+    thead th {
+        padding: 0 0 5px;
+        color: $first_color;
+        font-size: $medium_font_size;
+    }
+
+    tbody td {
+        padding: 3px 0;
+    }
+
+    tfoot {
+
+        td {
+            padding: 0;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 5px;
+        }
+
+    }
+
+    #next {
+        text-align: right;
+    } 
+
+}

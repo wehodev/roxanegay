@@ -1,0 +1,226 @@
+/*-------------------------------------------------------------------------*/
+/*  Carousel
+/*-------------------------------------------------------------------------*/
+
+
+/** Carousel: General */
+.wpus-carousel {
+
+    display:none !important;
+
+    figure {
+        display: block;
+    }
+    
+}
+
+.wpus-carousel.owl-loaded { 
+    display: block !important;
+}
+
+.wpus-carousel.owl-loading {
+    opacity: 0;
+    display: block !important;
+}
+
+.wpus-carousel .owl-stage:hover {
+    cursor: grab;
+}
+
+.wpus-carousel .owl-stage.owl-grab {
+    cursor: grabbing;
+}
+
+
+/** Carousel: Dots */
+.wpus-carousel {
+
+    .owl-dots {
+        z-index: 99;
+        position: relative;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    &.dots-inside .owl-dots {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    .owl-dot {
+
+        display: inline-block;
+        margin: 0 6px;
+
+        span {
+            display: inline-block;
+            width: 5px;
+            height: 5px;
+            border-radius: 30px;
+            border: 2px solid rgba( $accent_color, .4 );
+            cursor: pointer;
+            box-sizing: unset;
+            transition: background-color .15s;
+        }
+
+        &.active span,
+        &:hover span {
+            background-color: $accent_color;
+        }
+
+    }
+
+    &.dots-hover-show {
+
+        .owl-dots {
+            opacity: 0;
+            transform: translateY(15px);
+            transition: opacity .4s, transform .4s;
+        }
+
+        &:hover {
+            .owl-dots{
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+    }
+
+}
+
+
+/** Carousel: Arrows */
+.wpus-carousel {
+
+    .owl-nav div {
+        z-index: 10;
+        position: absolute;
+        top: 50%;
+        display: inline-block;
+        margin-top: -17px;
+        width: 34px;
+        height: 34px;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        font-size: 16px;
+        text-align: center;
+        line-height: 35px;
+        cursor: pointer;
+        transition: all .15s;
+        box-sizing: unset;
+    }
+
+    .owl-prev {
+        left: -80px;
+    }
+
+    .owl-next {
+        right: -80px;
+    }
+
+    &.arrows-bg .owl-nav div {
+
+        background-color: $background_color;
+        color: $first_color;
+
+        &:hover{
+            background-color: $first_color;
+            color: #fff;
+        }
+
+    }
+
+    &.arrows-outline .owl-nav div {
+
+        border-color: $border_color;
+        color: $first_color;
+
+        &:hover{
+            border-color: $first_color;
+            color: $first_color;
+        }
+
+    }
+
+    &.arrows-hover-show {
+
+        .owl-nav div {
+            opacity: 0;
+        }
+
+        .owl-prev {
+            transform: translateX(-15px);
+        }
+
+        .owl-next {
+            transform: translateX(15px);
+        }
+
+        &:hover .owl-nav div {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+    }
+}
+
+
+.wpus-slider,
+.wpus-flickr,
+.wpus-instagram,
+.wpus-image-carousel,
+.wpus-carousel.wpus-portfolio, {
+
+    .owl-prev {
+        left: 15px;
+    }
+
+    .owl-next {
+        right: 15px;
+    }
+
+    &.arrows-bg .owl-nav div {
+        
+        background-color: rgba( #000, .5 );
+        color: #fff;
+
+        &:hover{
+            background-color: rgba( #000, .8 );
+            color: #fff;
+        }
+
+    }
+
+    &.arrows-outline .owl-nav div {
+        border-color: rgba( #fff, .5 );
+        color: #fff;
+
+        &:hover{
+            border-color: #fff;
+            color: #fff;
+        }
+
+    }
+
+}
+
+
+/** Carousel: Thumbnail */
+.wpus-slider-thumb {
+
+    img {
+        width: 100%;
+        opacity: .5;
+        transition: all .2s ease;
+    }
+
+    img:hover,
+    .current img {
+        opacity: 1;
+    }
+
+}

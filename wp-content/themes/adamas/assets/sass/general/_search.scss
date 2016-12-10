@@ -1,0 +1,21 @@
+/*-------------------------------------------------------------------------*/
+/*  Search page
+/*-------------------------------------------------------------------------*/
+
+.wpus-search-results {
+
+    article:not(:last-child) {
+	    padding-bottom: 40px;
+	    margin-bottom: 40px;
+	    border-bottom: 1px solid $border_color;
+	}
+
+	+ .site-pagination {
+		margin-top: 60px;
+	}
+	
+}
+
+.search-no-results .not-found .search-form {
+	max-width: 600px;
+}

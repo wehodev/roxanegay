@@ -1,0 +1,48 @@
+/*-------------------------------------------------------------------------*/
+/*  Top Bar
+/*-------------------------------------------------------------------------*/
+
+/** Top Bar: General */
+.site-top-bar {
+    
+    z-index: 999;
+    position: relative;
+    width: 100%;
+    background-color: $top_bar_bg_color;
+    color: $topbar_color;
+    font-size: $medium_font_size;
+
+    &.top-bar-2-columns .widget-area:first-child,
+    &.top-bar-3-columns .widget-area:first-child {
+        
+        text-align: left;
+
+        .top-bar-widget:not(:last-child) {
+            margin-right: 20px;
+        }
+
+    }
+
+    &.top-bar-2-columns .widget-area:last-child,
+    &.top-bar-3-columns .widget-area:last-child {
+
+        text-align: right;
+
+        .top-bar-widget:not(:first-child) {
+            margin-left: 20px;
+        }
+
+    }
+
+    &.top-bar-1-columns .widget-area,
+    &.top-bar-3-columns .widget-area:nth-child(2) {
+
+        text-align: center;
+
+        .top-bar-widget:not(:last-child) {
+            margin-right: 20px;
+        }
+
+    }
+
+}

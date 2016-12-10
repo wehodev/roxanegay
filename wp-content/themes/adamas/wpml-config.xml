@@ -1,0 +1,6 @@
+<wpml-config>
+	<admin-texts>
+		<key name="title_404"/>
+		<key name="subtitle_404"/>
+	</admin-texts>
+</wpml-config>

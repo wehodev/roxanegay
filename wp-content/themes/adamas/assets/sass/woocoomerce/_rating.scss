@@ -1,0 +1,53 @@
+/*-------------------------------------------------------------------------*/
+/*  WooCommerce: Star Rating
+/*-------------------------------------------------------------------------*/
+
+.woocommerce-product-rating {
+	position: relative;
+	display: block;
+	height: 26px;
+
+	.woocommerce-review-link {
+		display: none;
+	}
+
+}
+
+.star-rating {
+	position: relative;
+	display: inline-block;
+	line-height: 26px;
+	width: 103px;
+	height: 26px;
+	overflow: hidden;
+
+	span {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding-top : 26px;
+		overflow: hidden;
+	}
+	
+	&:before,
+	span:before {
+		content: "\e606\e606\e606\e606\e606";
+		position: absolute;
+		top: 0;
+		left: 0;
+		font-size: 24px;
+		font-family: 'adamas-icon';
+		font-style: normal;
+		font-weight: normal;
+		line-height: 26px;
+		color: $accent_color;
+		letter-spacing: -4px;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	&:before {
+		color: #ccc;
+	}
+	
+}

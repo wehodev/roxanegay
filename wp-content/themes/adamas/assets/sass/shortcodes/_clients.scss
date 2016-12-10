@@ -1,0 +1,29 @@
+/** Shortcodes: Clients */
+
+.wpus-clients {
+    text-align: center;
+}
+
+.wpus-clients.wpus-carousel {
+    .owl-prev { left: -60px; }
+    .owl-next { right: -60px; }
+}
+
+.wpus-client {
+    
+    position: relative;
+    display: block;
+
+    img {
+
+        display: inline-block !important;
+        width: auto !important;
+        transition: opacity 0.15s;
+
+        &:hover {
+            opacity: .8;
+        }
+
+    }
+
+}
